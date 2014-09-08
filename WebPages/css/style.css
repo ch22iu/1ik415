@@ -7,8 +7,11 @@ body
 
 .headerUl
 {
-     font-size:20px;
      text-decoration:none;
+     font-size:16px;
+     position:absolute;
+     left:-30px;
+     margin-bottom:500px;
 }
 
 li
@@ -20,7 +23,8 @@ li
 }
 li:hover 
 {
-    font-size:30px;
+    font-size:17px;
+    color:#462B35;
 }
 
 a
