@@ -11,7 +11,17 @@ body
      font-size:16px;
      position:absolute;
      left:-30px;
-     margin-bottom:500px;
+}
+.first_h1
+{
+    margin-left:5px;
+    margin-top:35px;
+    
+}
+.first_p
+{
+    margin-left:15px;
+    margin-top:5px;
 }
 
 li
