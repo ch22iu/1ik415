@@ -26,19 +26,18 @@ body
 	position:relative;
 	width: auto;
 	height:auto;
+	margin:10px -15px 0 0;
 	background-color:white;
-	margin-left:10px;
-	margin-top:-15px;
-	padding:20px;
-	margin-bottom:-20px;
+	padding:18px;
 	border-style:solid;
 	border-radius:5px;
 	border-color:#CCC;
 	border-top:50px;
 	list-style:none;
 	text-decoration:none;
-	margin-right:0px;
+	
 }
+
 
 h1
 {
