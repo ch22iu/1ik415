@@ -152,8 +152,43 @@ a
      
 }
 
-#typeTextDot1,#typeTextDot2,#typeTextDot3,#typeTextDot4,#typeTextDot5,#typeTextDot6
+#typeTextDot,#typeTextDot1,#typeTextDot2,#typeTextDot3,#typeTextDot4,#typeTextDot5,#typeTextDot6
 {
-	margin-bottom:2px;
+	margin-bottom:20px;
 	margin-left:2px;
+}
+.firstdt
+{
+	margin-left:1px;
+}
+dl
+{
+	margin-left:15px;
+	margin-top:1px;
+	padding-top:1px;
+	margin-bottom:20px;
+	font-size:15px;
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:auto;
+}
+
+dt
+{
+	margin-left:20px;
+	font-size:15px;
+	
+}
+
+dd
+{
+	font-size:13px;
+	margin-left:45px;
+}
+.ollist
+{
+	border-radius:10px;
+	background-color:white;
+	
 }
