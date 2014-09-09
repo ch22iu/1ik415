@@ -8,6 +8,19 @@ body
 
 }
 
+#start { /* Design Nyheter */
+	width: 625px;
+	height: auto;
+	border-radius:10px;
+	background-color:#CCC;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
 .headerUl
 {
 	position:relative;
@@ -73,15 +86,21 @@ h3
 	border: 1px solid #E8E8E8;
     
 }
+h1,h2,h3,p
+{
+	margin-left:5px;
+	margin-right:5px;
+	padding-left:3px;
+	padding-top:2px;
+}
 p
 {
 	margin-top:1px;
 	padding-left:15px;
 	padding-top:1px;
 	margin-bottom:20px;
-	font-size:20px;
+	font-size:15px;
 	margin-left:5px;
-	background:rgb(250,250,250);
 	color:gray;
 	width:auto;
 	font-family: Georgia;
@@ -122,14 +141,4 @@ a
 .typeTextDot 
 {
 	font-size:5px;
-}
-#start { /* Design Nyheter */
-	width: 625px;
-	height: 440px;
-	border-radius:10px;
-	background-color:white;
-	float: left;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
 }
