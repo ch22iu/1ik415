@@ -193,3 +193,10 @@ dd
 	margin-right:10px;
 	
 }
+#videoClip
+{
+	width:auto;
+	margin-left:20px;
+	border:none;
+	height:auto;
+}
