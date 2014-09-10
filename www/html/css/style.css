@@ -202,7 +202,7 @@ dd
 }
 .myPic
 {
-	background-image:url('../img/coolkoala.jpg');
+	background-image:url('img/coolkoala.jpg');
 	background-repeat:repeat-x;
 	width:450px;
 	border-radius:10px;

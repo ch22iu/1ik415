@@ -200,13 +200,15 @@ dd
 	border:none;
 	height:auto;
 }
-.myPic
+.pictures
 {
-	background-image:url('../img/coolkoala.jpg');
-	background-repeat:repeat-x;
-	width:450px;
+	background-image: url('../img/coolkoala.jpg');
+    background-repeat: no-repeat;
+	background-origin: content-box;
+    width:120px;
+	height:120px;
+	margin-left:25px;
+	margin-bottom:2px;
+	border:1px solid black;
 	border-radius:10px;
-	border-style:solid;
-	border-color:black;
-	height:250px;
 }
