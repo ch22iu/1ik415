@@ -19,8 +19,46 @@
     <br>
     <section id="section_main">
         <div id="start">
-            <h1>Your name?</h1>
-            <p>- Christopher Holmberg</p>
+			<form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+			
+				<label>Ask me anything</label>
+				<fieldset>
+				<legend>Question</legend>
+					<p>
+					<label>Choose your problem</label>
+						<select id="list" name="SelectedProblem:">
+							<option value="Error" name="Error">Error</option>
+							<option value="Issue with Site" name="Issue">Issue with site!</option>
+							<option value="Random" name="Random">Random question?</option>
+							<option value="Test1">Test1</option>
+							<option value="5">Test2</option>
+							<option value="6">Test3</option>
+						</select>
+					</p>
+				
+				<label>Question:</label>
+					<textarea name="Problem:" placeholder="Write something cool about yourself."></textarea>
+				</fieldset>	
+				
+				<label>Christopher Holmbergs Form</label>
+				<input name="Name:" placeholder="Type your name here" />
+				
+				<label>Phone</label>
+				<input name="Phone:" type="tel" placeholder="Phone nr" />
+				
+				<label>Email</label>
+				<input name="Email:" type="email" placeholder="chorrovic@google.com" />
+				
+				<label>Your Message Here</label>
+				<textarea name="Message:" placeholder="Write something cool about yourself."></textarea>
+				
+				<fieldset>
+					<legend>Information, About Me</legend>
+					<input class="cbox" type="checkbox" name="Contact me via Email" value="Email" />Contact me, Email</br>
+					<input class="cbox" type="checkbox" name="Contact me via Phone" value="Phone" />Contact me, Phone</br>
+				</fieldset>
+				<input id="submit" type="submit">
+			</form>
         </div>
     </section>
 	<footer id="footer_bot"><a href="html/pages/contact.html" class="footer_bot_a">Copyrighted @ Christopher Holmberg UD14</a></footer>
