@@ -276,3 +276,39 @@ dd
 	border:1px solid black;
 	border-radius:10px;
 }
+#table_main
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+tr
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+th
+{
+	border:3px solid black;
+	color:#CSC555;
+	border-radius:5px;
+}
+td
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+.noblock
+{
+	border:none;
+}
+.editblock
+{
+	border:none;
+	text-decoration:underline;
+}
+#FirstLabb
+{
+	width:180px;
+	height:80px;
+	color:black;
+}
