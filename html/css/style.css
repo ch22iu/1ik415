@@ -30,8 +30,6 @@ ul {
   margin: 0;
   padding: 15px 4px 17px 0;
   list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 ul li 
@@ -43,10 +41,6 @@ ul li
   padding: 15px 20px;
   border-radius:5px;
   cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 ul li:hover 
@@ -77,18 +71,11 @@ ul li ul {
   top: 48px;
   left: 0;
   width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   display: none;
   color:white;
   opacity: 0;
   visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
 }
 ul li ul li { 
   background: #555; 
@@ -318,7 +305,7 @@ tr
 th
 {
 	border:3px solid black;
-	color:#CSC555;
+	color:black;
 	border-radius:5px;
 }
 td
@@ -361,8 +348,6 @@ input, textarea {
 	height:27px;
 	background:#efefef;
 	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
 	border:1px solid #dedede;
 	padding:10px;
 	margin-top:3px;
