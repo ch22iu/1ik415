@@ -255,6 +255,15 @@ dd
 	border-color:black;
 	height:250px;
 }
+.videoClip
+{
+	width:auto;
+	margin-left:5px;
+	border:none;
+	border:1px solid black;
+	border-radius:5px;
+	height:auto;
+}
 .pictures
 {
 	background-image: url('../img/coolkoala.jpg');
