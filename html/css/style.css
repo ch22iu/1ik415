@@ -109,22 +109,15 @@ ul li:hover ul {
 	padding-top:5px;
 }
 
-#footer_bot
+.footer_bot
 {
-	margin-left:5px;
-	margin-right:50px;
-	margin-bottom:50px;
+	margin-left:50px;
+	margin-right:auto;
 	margin-top:50px;
-	width:auto;
+	margin-bottom:50px;
+	width:1600px;
 	height:auto;
-	padding:1px;
 	float:left;
-}
-
-.footer_bot_a
-{
-	margin-left:250px;
-	margin-right:250px;
 	padding:1px;
 }
 
