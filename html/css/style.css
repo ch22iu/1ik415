@@ -124,8 +124,10 @@ ul li:hover ul {
 
 #footer_bot
 {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-top:50px;
 	width:auto;
 	height:auto;
 	padding:1px;
