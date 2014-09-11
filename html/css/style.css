@@ -10,25 +10,6 @@ body
 
 }
 
-/*Default styles*/
-.related-products li {
-  float: left;
-  width: 50%;
-}
-
-/*Display 3 per row for medium displays (like mobile phones in landscape or smaller tablets)*/
-@media screen and (min-width: 28.75em) {
-  .related-products li {
-    width: 33.3333333%;
-  }
-}
-/*Display 6 to a row for large displays (like medium tablets and up) */
-@media screen and min-width: 40.5em) {
-  .related-products li {
-    width: 16.6666667%;
-  }
-}
-
 /*#start# { /* Design Nyheter 
 	width: 625px;
 	height: auto;
