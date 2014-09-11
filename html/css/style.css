@@ -1,6 +1,8 @@
 body
 {
     font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
     font-family:arial;
     text-decoration:none;
     /*background-image: url('../img/coolkoala.jpg');*/
@@ -111,22 +113,23 @@ ul li:hover ul {
 {
 	width:auto;
 	height:auto;
+	margin-left:auto;
+	float:left;
+	margin-right:auto;
 	border-radius:10px;
 	margin-left: 10px;
 	padding-bottom:5px;
 	padding-top:5px;
 }
+
 #footer_bot
 {
+	margin-left:auto;
+	margin-right:auto;
 	width:auto;
 	height:auto;
-	border-radius:10px;
-	background-color:#CCC;
-	margin-right: 5px;
-	margin-top: 10px;
-	margin-left: 5px;
-	padding-bottom:5px;
-	padding-top:5px;
+	padding:1px;
+	float:left;
 }
 
 .footer_bot_a
@@ -338,8 +341,11 @@ td
 }
 
 form {
-	width:459px;
-	margin:0 auto;
+	width:259px;
+	height:auto;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 label {
