@@ -21,12 +21,9 @@
 			<li class="mainLi"><a href="../../pages/contact.html">Contact</a></li>
         </ul>
     </nav>
-
-    <br>
     <section id="section_main">
         <div id="start">
 			<form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-			
 				<label>Ask me anything</label>
 				<fieldset>
 				<legend>Question</legend>
@@ -58,10 +55,14 @@
 				<label>Your Message Here</label>
 				<textarea name="Message:" placeholder="Write something cool about yourself."></textarea>
 				
-				<fieldset>
+				<fieldset class="fieldset2">
 					<legend>Information, About Me</legend>
-					<input class="cbox" type="checkbox" name="Contact me via Email" value="Email" />Contact me, Email
-					<input class="cbox" type="checkbox" name="Contact me via Phone" value="Phone" />Contact me, Phone
+					
+					<label class="fix">Contact Email</label>
+					<input class="cbox" type="checkbox" name="Contact me via Email" value="Email" />
+					
+					<label class="fix">Contact Phone</label>
+					<input class="cbox" type="checkbox" name="Contact me via Phone" value="Phone" />
 				</fieldset>
 				<input id="submit" type="submit" />
 			</form>

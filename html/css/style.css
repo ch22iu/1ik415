@@ -271,13 +271,6 @@ dd
 	margin-right:10px;
 	
 }
-.videoClip
-{
-	width:auto;
-	margin-left:0px;
-	border:none;
-	height:auto;
-}
 .vid_pictures
 {
 	background-image:url('img/coolkoala.jpg');
@@ -290,7 +283,7 @@ dd
 }
 .videoClip
 {
-	width:auto;
+	width:250px;
 	margin-left:5px;
 	border:none;
 	border:1px solid black;
@@ -361,13 +354,14 @@ label {
 }
 
 input, textarea {
-	width:439px;
+	width:380px;
 	height:27px;
 	background:#efefef;
 	border-radius:5px;
 	border:1px solid #dedede;
 	padding:10px;
 	margin-top:3px;
+	margin-left:5px;
 	font-size:0.9em;
 	color:#3a3a3a;
 }
@@ -377,7 +371,8 @@ input, textarea {
 	}
 
 textarea {
-	height:100px;
+	width:380px;
+	height:80px;
 	font-family:Arial, Helvetica, sans-serif;
 
 }
@@ -401,10 +396,23 @@ footer a img {
 	float:right;
 	margin:0px 59px 40px 0px;
 }
-.cbox
+.fieldset2
 {
-	margin-left:1px;
-	width:10px;
-	height:10px;
-	margin-bottom:1px;
+	float:left;
+	background-color:#fff;
+	margin-left:5px;
+	border-radius:5px;
+}
+input.cbox
+{
+	width:380px;
+	height:1px;
+	background-color:green;
+	border:1px solid black;
+	z-index:99999px;
+	float:left;
+}
+.fix 
+{
+	height:5px;
 }
