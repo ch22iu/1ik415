@@ -153,13 +153,14 @@ ul li:hover ul {
 }
 .footer_bot a
 {
-	font-size:15px;
+	font-size:10px;
 	background:rgb(250,250,250);
 	color:gray;
 	/* float:left; */
 	font-family: Georgia;
-	margin-left:auto;
-	margin-right:auto;
+	text-align:center;
+	padding-left:100px;
+	padding-right:100px;
 
 }
 
