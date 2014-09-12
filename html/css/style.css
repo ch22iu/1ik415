@@ -339,6 +339,31 @@ td
 	color:black;
 }
 
+#labb 
+{
+  text-align: left;
+  display: inline;
+  background-color:#fff;
+  border-radius:5px;
+  padding: 5px 10px 8px 0px;
+  border-radius:5px;
+  list-style: none;
+  margin-left:5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+#labben 
+{
+  text-align: left;
+  display: inline;
+  background-color:#fff;
+  border-radius:5px;
+  padding: 5px 10px 8px 0px;
+  border-radius:5px;
+  list-style: none;
+  margin-left:5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
 form {
 	width:259px;
 	height:auto;
