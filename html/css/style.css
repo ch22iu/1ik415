@@ -158,7 +158,8 @@ ul li:hover ul {
 	color:gray;
 	/* float:left; */
 	font-family: Georgia;
-	margin:200px;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 
