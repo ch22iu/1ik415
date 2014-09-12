@@ -4,6 +4,7 @@ body
 	margin-left:auto;
 	margin-right:auto;
 	width:1024px;
+	height:auto;
     font-family:arial;
     text-decoration:none;
     /*background-image: url('../img/coolkoala.jpg');*/
@@ -29,7 +30,9 @@ ul {
   text-align: left;
   display: inline;
   margin: 0;
-  padding: 15px 4px 17px 0;
+  background-color:#fff;
+  border-radius:5px;
+  padding: 5px 8px 8px 0px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
@@ -39,16 +42,20 @@ ul li
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 15px 20px;
+  padding: 5px 10px;
   border-radius:5px;
   cursor: pointer;
   transition: all 0.2s;
 }
 ul li:hover 
 {
-  background: #C0C0C0;
-  color:white;
+	background: 
+
+#c3002c;
+	color:white;
 }
+
+
 ul li a:hover 
 {
 	color:white;
@@ -59,17 +66,19 @@ ul li li a
 }
 ul li ul li:hover:nth-child(1)
 {
-	background-color:#fff231;
+	background-color:#ff2052;
+	margin:5px;
 }
 ul li ul li:hover:nth-child(2)
 {
-	background-color:#ffC012;
+	background-color:#ff2052;
+	margin:5px;
 }
 
 ul li ul {
   padding: 0;
   position: absolute;
-  top: 48px;
+  top: 28px;
   left: 0;
   width: 150px;
   box-shadow: none;
@@ -86,7 +95,7 @@ ul li ul li {
 }
 ul li ul li:hover 
 { 
-	background: grey; 
+	background: #ff3a66; 
 	color:white;
 }
 ul li:hover ul {
