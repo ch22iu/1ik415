@@ -36,6 +36,9 @@ body
 
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
+	body {
+		font-size:5px;
+	}
 	ul {
 	  padding: 1px;
 	}
