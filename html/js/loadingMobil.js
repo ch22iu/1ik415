@@ -1,7 +1,16 @@
-var cssPath = "css/standard.css";
+
 var isMobile = {
     Android: function() {
+	var fileref = document.createElement("link");
+
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", cssPath);
+
+document.getElementsByTagName("head")[0].appendChild(fileref);
+	var cssPath = "css/standard.css";
 		cssPath = "mobile.css";
+		
         return navigator.userAgent.match(/Android/i);
     },
     BlackBerry: function() {
@@ -20,14 +29,6 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-var fileref = document.createElement("link");
-
-fileref.setAttribute("rel", "stylesheet");
-fileref.setAttribute("type", "text/css");
-fileref.setAttribute("href", cssPath);
-
-document.getElementsByTagName("head")[0].appendChild(fileref);
-
 
 if( isMobile.any() ) alert('You are using a');
 
