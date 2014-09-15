@@ -19,12 +19,10 @@ var isMobile = {
     },
 	WindowsOS: function() {
 		normalCss();
-		
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
-		loadMobilCss();
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || loadMobilCss() || isMobile.Windows());
     }
 };
 var fileref = document.createElement("link");
@@ -44,7 +42,7 @@ var normalCss = function() {
 }
 
 
-if( isMobile.any() ) alert('You are using a mobile');
+if( isMobile.any() ) alert('You are using a mobilephone!!!');
 
 
 if( isMobile.iOS() ) alert('iOS');
