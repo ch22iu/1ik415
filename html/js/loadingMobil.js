@@ -18,7 +18,6 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		normalCss();
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
@@ -42,13 +41,9 @@ var normalCss = function() {
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 }
 
-
 if( isMobile.any() ) alert('You are using a mobilephone!!!');
 
 
-if( isMobile.iOS() ) alert('iOS');
-
-if( isMobile.WindowsOS() alert('Windows');
 // Testing
 
 
