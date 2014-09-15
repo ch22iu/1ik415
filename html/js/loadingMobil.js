@@ -29,7 +29,7 @@ if( isMobile.iOS() ) alert('iOS');
 
 if( isMobile.Windows() ) alert('Windows');
 
-if( isMobile.WindowsOS() ) alert('WindowsOSS');
+if( isMobile.WindowsOS() ) alert('You are browsing from a computer!');
 
 // Testing
 
