@@ -6,7 +6,7 @@
 		<title>My first WebPage</title>
 		<script type="text/javascript"> 
 
-        if(deviceAgent.match(/android/i)){
+        if(navigator.userAgent.match(/android/i)){
             controlCss = "html/css/style_mobiles.css";
             // use a solution that does not need jQuery
             document.getElementById("cssLink").setAttribute("href", controlCss);
