@@ -33,13 +33,48 @@ body
 	width:auto;
 	height:auto;
 }
-@media (max-width: 481px) 
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  body
 {
-	body 
-	{
-		width:50px;
-		height:auto;
-	}
+    font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#a49598;
+	height:auto;
+	width:50px;
+    font-family:arial;
+    text-decoration:none;
+    /*background-image: url('../img/coolkoala.jpg');*/
+    /*background-image:repeat-x;*/
+
+}
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  /* some CSS here */
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  /* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  /* some CSS here */
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  /* some CSS here */
 }
 
 
