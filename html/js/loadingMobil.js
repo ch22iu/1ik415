@@ -22,7 +22,8 @@ var isMobile = {
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || loadMobilCss() || isMobile.Windows());
+		loadMobilCss();
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
 var fileref = document.createElement("link");
