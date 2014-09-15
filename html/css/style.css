@@ -33,6 +33,16 @@ body
 	width:auto;
 	height:auto;
 }
+@media (max-width: 481px) {
+	body 
+	{
+		width:400px;
+		height:200px;
+	}
+  .facet_sidebar {
+    display: none;
+  }
+
 
 /*#start# { /* Design Nyheter 
 	width: 625px;
