@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta name="viewport" charset="utf-8" content="width=device-width,float=left, initial-scale=1" media="only screen and (max-device-width: 480px)" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen, handheld" />
+        <title>My first WebPage</title>
+    </head>
+<body>
+	<nav id="nav_menu">
+        <ul>
+            <li class="mainLi"><a href="../../index.html">Start</a></li>
+			<li><a href="../pages/labb/mylabs.html">My Lab</a>
+				<ul>
+					<li><a href="../pages/labb/lab_table.html">Tables</a></li>
+					<li><a href="../pages/labb/lab_form.html">Forms</a></li>
+				</ul>
+				</li>
+            <li class="mainLi"><a href="bottom.html">About Me</a></li>
+            <li class="mainLi"><a href="videos.html">Videos</a></li>
+            <li class="mainLi"><a href="images.html">Images</a></li>
+			<li class="mainLi"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="section_main">
+        <div id="start">
+            <h1>Contact Me</h1>
+            <p>Number: <strong>0707871327</strong></p>
+			<p>Email: <a href="mailto:christopherholmberg@live.se">Christopher Holmberg</a></p>
+			
+						<form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+				<label>Ask me anything</label>
+				<fieldset>
+				<legend>Question</legend>
+					<p>
+					<label>Choose your problem</label>
+						<select id="list" name="selectproblem">
+							<option value="Error">Error</option>
+							<option value="Issue with Site">Issue with site!</option>
+							<option value="Random">Random question?</option>
+							<option value="Test1">Test1</option>
+							<option value="5">Test2</option>
+							<option value="6">Test3</option>
+						</select>
+					</p>
+				
+				<label>Question:</label>
+					<textarea name="Problem:" placeholder="Write something cool about yourself."></textarea>
+				</fieldset>	
+				
+				<label>Christopher Holmbergs Form</label>
+				<input name="Name:" placeholder="Type your name here" />
+				
+				<label>Phone</label>
+				<input name="Phone:" type="tel" placeholder="Phone nr" />
+				
+				<label>Email</label>
+				<input name="Email:" type="email" placeholder="chorrovic@google.com" />
+				
+				<label>Your Message Here</label>
+				<textarea name="Message:" placeholder="Write something cool about yourself."></textarea>
+				
+				<fieldset class="fieldset2">
+					<legend>Information, About Me</legend>
+					
+					<label class="fix">Contact Email</label>
+					<input class="cbox" type="checkbox" name="Contact me via Email" value="Email" />
+					
+					<label class="fix">Contact Phone</label>
+					<input class="cbox" type="checkbox" name="Contact me via Phone" value="Phone" />
+				</fieldset>
+				<input id="submit" type="submit" />
+			</form>
+        </div>
+    </section>
+	<footer class="footer_bot"><a href="contact.html">Copyrighted @ Christopher Holmberg UD14</a></footer>
+</body>
+</html>
