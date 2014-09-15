@@ -1,5 +1,8 @@
 var isMobile = {
     Android: function() {
+		document.width:480px;
+		document.height:width-device;
+		document.
         return navigator.userAgent.match(/Android/i);
     },
     BlackBerry: function() {
@@ -19,7 +22,7 @@ var isMobile = {
     }
 };
 
-if( isMobile.any() ) alert('Mobile');
+if( isMobile.any() ) alert('You are using a');
 
 if( isMobile.iOS() ) alert('iOS');
 
