@@ -1,12 +1,14 @@
 
 var isMobile = {
     Android: function() {
+		loadMobilCss();
         return navigator.userAgent.match(/Android/i);
     },
     BlackBerry: function() {
         return navigator.userAgent.match(/BlackBerry/i);
     },
     iOS: function() {
+		loadMobilCss();
         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
     },
     Opera: function() {
@@ -16,29 +18,37 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
+		normalCss();
 		
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
-		loadMobilCss();
+		
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-
+var fileref = document.createElement("link");
 var loadMobilCss = function() {
-		var fileref = document.createElement("link");
-		cssPath = "html/css/style_mobile.css";
+		cssPath = "../css/style_mobile.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
 		fileref.setAttribute("href", cssPath);
-		
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 }
+var normalCss = function() {
+		cssPath = "../css/style.css";
+		fileref.setAttribute("rel", "stylesheet");
+		fileref.setAttribute("type", "text/css");
+		fileref.setAttribute("href", cssPath);
+		document.getElementsByTagName("head")[0].appendChild(fileref);
+}
+
 
 if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
+if( isMobile.WindowsOS() ) alert('Loading Mobile');
 // Testing
 
 
