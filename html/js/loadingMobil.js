@@ -48,7 +48,7 @@ if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
-if( isMobile.WindowsOS() ) alert('Loading Mobile');
+// if( isMobile.WindowsOS() ) alert('');
 // Testing
 
 
