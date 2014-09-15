@@ -47,16 +47,6 @@ body
 	  list-style: none;
 	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	}
-	ul li 
-	{
-	  font: bold 12px/18px sans-serif;
-	  display: inline-block;
-	  margin-right: 2px;
-	  position: relative;
-	  padding: 1;
-	  cursor: pointer;
-	  transition: all 0.2s;
-	}
 }
 
 /* #### Mobile Phones Landscape #### */
