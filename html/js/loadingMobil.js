@@ -18,7 +18,7 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		loadMobilCss();
+		normalCss();
 		
 		return navigator.userAgent.match(/Windows/i);
 	},
