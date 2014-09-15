@@ -1,7 +1,7 @@
 
 
 var fileref = document.createElement("link");
-var cssPath = "html/css/";
+var cssPath = "../css/";
 
 var isMobile = {
     Android: function() {
