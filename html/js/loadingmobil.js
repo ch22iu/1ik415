@@ -22,3 +22,5 @@ var isMobile = {
 if( isMobile.any() ) alert('Mobile');
 
 if( isMobile.iOS() ) alert('iOS');
+
+// Test
