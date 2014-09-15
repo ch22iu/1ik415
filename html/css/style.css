@@ -49,18 +49,6 @@ body
 
 }
 
-ul {
-  text-align: left;
-  background-color:#fff;
-  margin-left:10px;
-  margin-right:10px;
-  border-radius:5px;
-  padding: 15px 0px 15px 55px;
-  border-radius:5px;
-  list-style: none;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
 }
 
 /* #### Mobile Phones Landscape #### */
