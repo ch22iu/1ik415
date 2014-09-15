@@ -13,6 +13,16 @@ body
     /*background-image:repeat-x;*/
 
 }
+@media (max-width: 481px) {
+	body 
+	{
+		width:400px;
+		height:200px;
+	}
+  .facet_sidebar {
+    display: none;
+  }
+
 #startpost 
 { 
 	background-color:#fff;
