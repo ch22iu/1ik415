@@ -18,7 +18,7 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		normalCss();
+		loadMobilCss();
 		
 		return navigator.userAgent.match(/Windows/i);
 	},
@@ -29,14 +29,14 @@ var isMobile = {
 };
 var fileref = document.createElement("link");
 var loadMobilCss = function() {
-		cssPath = "../css/style_mobile.css";
+		cssPath = "html/css/style_mobile.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
 		fileref.setAttribute("href", cssPath);
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 }
 var normalCss = function() {
-		cssPath = "../css/style.css";
+		cssPath = "html/css/style.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
 		fileref.setAttribute("href", cssPath);
@@ -48,7 +48,7 @@ if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
-// if( isMobile.WindowsOS() ) alert('');
+if( isMobile.WindowsOS() );
 // Testing
 
 
