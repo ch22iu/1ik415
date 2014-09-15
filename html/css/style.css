@@ -33,15 +33,14 @@ body
 	width:auto;
 	height:auto;
 }
-@media (max-width: 481px) {
+@media (max-width: 481px) 
+{
 	body 
 	{
-		width:400px;
-		height:200px;
+		width:300px;
+		height:auto;
 	}
-  .facet_sidebar {
-    display: none;
-  }
+}
 
 
 /*#start# { /* Design Nyheter 
