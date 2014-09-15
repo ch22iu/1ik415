@@ -1,7 +1,6 @@
 
 
-var fileref = document.createElement("link");
-var cssPath = "html/css/";
+
 
 var isMobile = {
     Android: function() {
@@ -20,6 +19,9 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
+		var fileref = document.createElement("link");
+		var cssPath = "html/css/";
+		
 		cssPath = "style.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
