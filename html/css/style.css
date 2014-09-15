@@ -36,12 +36,6 @@ body
 
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
-	body {
-		font-size:5px;
-	}
-	ul {
-	  padding: 1px;
-	}
 	ul li 
 	{
 	  font: bold 12px/18px sans-serif;
@@ -50,12 +44,6 @@ body
 	  padding: 1px;
 	  cursor: pointer;
 	  transition: all 0.2s;
-	}
-	.footer_bot a
-	{
-		padding-left:1px;
-		padding-right:1px;
-
 	}
 }
 
