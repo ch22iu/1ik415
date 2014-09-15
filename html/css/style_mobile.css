@@ -1,0 +1,378 @@
+body
+{
+    font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#a49598;
+	height:auto;
+    font-family:arial;
+    text-decoration:none;
+    /*background-image: url('../img/coolkoala.jpg');*/
+    /*background-image:repeat-x;*/
+
+}
+#startpost 
+{ 
+	background-color:#fff;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:5px;
+	width:auto;
+	height:auto;
+}
+
+#section_main
+{
+	/* float:left; */
+	background-color:#fff;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:5px;
+	width:auto;
+	height:auto;
+}
+
+/*#start# { /* Design Nyheter 
+	width: 625px;
+	height: auto;
+	border-radius:10px;
+	background-color:#CCC;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+**/
+
+ul {
+  text-align: left;
+  background-color:#fff;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:5px;
+  float:left;
+  padding: 15px 0px 15px 55px;
+  border-radius:5px;
+  list-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.footer_bot
+{
+	margin-top:10px;
+	margin-left:10px;
+	background:rgb(250,250,250);
+	margin-right:10px;
+	border-radius:10px;
+	padding:15px;
+}
+.footer_bot a
+{
+	font-size:15px;
+	font-variant:small-caps;
+	background:rgb(250,250,250);
+	color:gray;
+	/* float:left; */
+	font-family: georgian;
+	text-align:center;
+	padding-left:100px;
+	padding-right:100px;
+
+}
+
+h1
+{
+	margin-top:15px;
+	padding-left:5px;
+	padding-top:10px;
+	margin-bottom:5px;
+	font-size:20px;
+	margin-left:5px;
+	background:rgb(250,250,250);
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	margin-right:5px;
+	height:40px;
+	border-radius:5px;
+	border: 1px solid #E8E8E8;
+    
+}
+h2
+{
+	margin-top:15px;
+	padding-left:5px;
+	padding-top:10px;
+	margin-bottom:5px;
+	font-size:16px;
+	margin-right:5px;
+	margin-left:5px;
+	background:rgb(250,250,250);
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:40px;
+	border-radius:5px;
+	border: 1px solid #E8E8E8;
+    
+}
+h3
+{
+	margin-top:15px;
+	padding-left:5px;
+	padding-top:10px;
+	margin-bottom:5px;
+	font-size:13px;
+	margin-left:5px;
+	margin-right:5px;
+	background:rgb(250,250,250);
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:25px;
+	border-radius:5px;
+	border: 1px solid #E8E8E8;
+    
+}
+
+p
+{
+	margin-top:1px;
+	padding-left:15px;
+	padding-top:1px;
+	margin-bottom:20px;
+	font-size:15px;
+	margin-left:5px;
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:auto;
+}
+
+li
+{
+     margin-left:5px;
+     list-style:none;
+     text-decoration:none;
+     background:rgb(250,250,250);
+     color:black;
+}
+
+a
+{
+     text-decoration:none;
+     color:black;
+}
+
+#typeTextDot,#typeTextDot1,#typeTextDot2,#typeTextDot3,#typeTextDot4,#typeTextDot5,#typeTextDot6
+{
+	margin-bottom:20px;
+	margin-left:2px;
+}
+.firstdt
+{
+	margin-left:1px;
+}
+dl
+{
+	margin-left:15px;
+	margin-top:1px;
+	padding-top:1px;
+	margin-bottom:20px;
+	font-size:15px;
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:auto;
+}
+
+dt
+{
+	margin-left:20px;
+	font-size:15px;
+	
+}
+
+dd
+{
+	font-size:13px;
+	margin-left:45px;
+}
+.ollist
+{
+	border-radius:10px;
+	background-color:white;
+	margin-right:10px;
+	
+}
+.vid_pictures
+{
+	background-image:url('img/coolkoala.jpg');
+	background-repeat:repeat-x;
+	width:450px;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	height:250px;
+}
+.videoClip
+{
+	width:380px;
+	margin-left:5px;
+	border:none;
+	border:1px solid black;
+	border-radius:5px;
+	height:auto;
+}
+.pictures
+{
+	background-image: url('../img/coolkoala.jpg');
+    background-repeat: no-repeat;
+	background-origin: content-box;
+    width:120px;
+	height:120px;
+	margin-left:25px;
+	margin-bottom:2px;
+	border:1px solid black;
+	border-radius:10px;
+}
+#table_main
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+tr
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+th
+{
+	border:3px solid black;
+	color:black;
+	border-radius:5px;
+}
+td
+{
+	border:1px solid black;
+	border-radius:5px;
+}
+.noblock
+{
+	border:none;
+}
+.editblock
+{
+	border:none;
+	text-decoration:underline;
+}
+#FirstLabb
+{
+	width:180px;
+	height:80px;
+	color:black;
+}
+
+#labb 
+{
+  text-align: left;
+  background-color:#fff;
+  border-radius:5px;
+  padding: 5px 10px 8px 0px;
+  border-radius:5px;
+  list-style: none;
+  margin-left:5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+#labben 
+{
+  text-align: left;
+  display: inline;
+  background-color:#fff;
+  border-radius:5px;
+  padding: 5px 10px 8px 0px;
+  border-radius:5px;
+  list-style: none;
+  margin-left:5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+form {
+	/* float:left; */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+label {
+	display:block;
+	letter-spacing:2px;
+}
+
+input, textarea {
+	width:380px;
+	height:27px;
+	background:#efefef;
+	border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	margin-left:5px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+	input:focus, textarea:focus {
+		border:1px solid #97d6eb;
+	}
+
+textarea {
+	width:380px;
+	height:80px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#submit {
+	background:url(../img/Send.jpg);
+	width:141px;
+	height:50px;
+	text-indent:-9999px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+	#submit:hover {
+		opacity:0.9;
+	}
+
+footer a img {
+	border:none;
+	/* float:right; */
+	margin:0px 59px 40px 0px;
+}
+.fieldset2
+{
+	/* float:left; */
+	background-color:#fff;
+	margin-left:5px;
+	border-radius:5px;
+}
+input.cbox
+{
+	width:380px;
+	height:1px;
+	background-color:green;
+	border:1px solid black;
+	z-index:99999px;
+	/* float:left; */
+}
+.fix 
+{
+	height:5px;
+}
