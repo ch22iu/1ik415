@@ -48,6 +48,19 @@ body
 	  cursor: pointer;
 	  transition: all 0.2s;
 	}
+	.footer_bot a
+{
+	font-size:8px;
+	font-variant:small-caps;
+	background:rgb(250,250,250);
+	color:gray;
+	/* float:left; */
+	font-family: georgian;
+	text-align:center;
+	padding-left:1px;
+	padding-right:1px;
+
+}
 }
 
 /* #### Mobile Phones Landscape #### */
