@@ -1,16 +1,6 @@
 
 var isMobile = {
     Android: function() {
-	var fileref = document.createElement("link");
-
-fileref.setAttribute("rel", "stylesheet");
-fileref.setAttribute("type", "text/css");
-fileref.setAttribute("href", cssPath);
-
-document.getElementsByTagName("head")[0].appendChild(fileref);
-	var cssPath = "html/css/standard.css";
-		cssPath = "mobile.css";
-		
         return navigator.userAgent.match(/Android/i);
     },
     BlackBerry: function() {
@@ -25,6 +15,9 @@ document.getElementsByTagName("head")[0].appendChild(fileref);
     Windows: function() {
         return navigator.userAgent.match(/IEMobile/i);
     },
+	WindowsOS: function() {
+		return navigator.userAgent.match(/Windows/i);
+	},
     any: function() {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
@@ -36,4 +29,21 @@ if( isMobile.iOS() ) alert('iOS');
 
 if( isMobile.Windows() ) alert('Windows');
 
+if( isMobile.WindowsOS() ) alert('WindowsOSS');
+
+if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+
 // Testing
+
+	var fileref = document.createElement("link");
+	var cssPath = "html/css/standard.css";
+	
+	fileref.setAttribute("rel", "stylesheet");
+	fileref.setAttribute("type", "text/css");
+	fileref.setAttribute("href", cssPath);
+
+	document.getElementsByTagName("head")[0].appendChild(fileref);
+	
+
+	cssPath = "mobile.css";
+		
