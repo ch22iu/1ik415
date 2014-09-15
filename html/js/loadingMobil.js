@@ -28,7 +28,7 @@ var isMobile = {
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 		
 
-		cssPath = "mobile.css";
+		cssPath = "../css/style.css";
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
