@@ -8,7 +8,7 @@ fileref.setAttribute("type", "text/css");
 fileref.setAttribute("href", cssPath);
 
 document.getElementsByTagName("head")[0].appendChild(fileref);
-	var cssPath = "css/standard.css";
+	var cssPath = "html/css/standard.css";
 		cssPath = "mobile.css";
 		
         return navigator.userAgent.match(/Android/i);
@@ -30,7 +30,7 @@ document.getElementsByTagName("head")[0].appendChild(fileref);
     }
 };
 
-if( isMobile.any() ) alert('You are using a');
+if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
