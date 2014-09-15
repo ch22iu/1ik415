@@ -46,6 +46,8 @@ var normalCss = function() {
 
 if( isMobile.any() ) alert('You are using a mobile');
 
+if( isMobile.Android() ) alert('Android');
+
 if( isMobile.iOS() ) alert('iOS');
 
 if( isMobile.WindowsOS() );
