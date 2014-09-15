@@ -1,7 +1,7 @@
 
 
-	var fileref = document.createElement("link");
-	var cssPath = "html/css/standard.css";
+var fileref = document.createElement("link");
+var cssPath = "html/css/";
 
 var isMobile = {
     Android: function() {
@@ -20,12 +20,14 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		cssPath = "../css/style.css";
+		cssPath = "style.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
 		fileref.setAttribute("href", cssPath);
 
-		return document.getElementsByTagName("head")[0].appendChild(fileref);
+		document.getElementsByTagName("head")[0].appendChild(fileref);
+		
+		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
@@ -36,7 +38,7 @@ if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
-if( isMobile.WindowsOS() ) alert('You are browsing from a computer!');
+if( isMobile.WindowsOS() ) alert('You are browsing from a computer!!');
 
 // Testing
 
