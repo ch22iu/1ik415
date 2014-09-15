@@ -1,14 +1,14 @@
 
 var isMobile = {
     Android: function() {
-		loadMobilCss();
+	
         return navigator.userAgent.match(/Android/i);
     },
     BlackBerry: function() {
         return navigator.userAgent.match(/BlackBerry/i);
     },
     iOS: function() {
-		loadMobilCss();
+		
         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
     },
     Opera: function() {
@@ -23,7 +23,7 @@ var isMobile = {
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
-		
+		loadMobilCss();
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
@@ -46,7 +46,6 @@ var normalCss = function() {
 
 if( isMobile.any() ) alert('You are using a mobile');
 
-if( isMobile.Android() ) alert('Android');
 
 if( isMobile.iOS() ) alert('iOS');
 
