@@ -31,8 +31,6 @@ if( isMobile.Windows() ) alert('Windows');
 
 if( isMobile.WindowsOS() ) alert('WindowsOSS');
 
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-
 // Testing
 
 	var fileref = document.createElement("link");
