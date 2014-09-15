@@ -1,4 +1,8 @@
 
+
+	var fileref = document.createElement("link");
+	var cssPath = "html/css/standard.css";
+
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -16,6 +20,15 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
+	
+		fileref.setAttribute("rel", "stylesheet");
+		fileref.setAttribute("type", "text/css");
+		fileref.setAttribute("href", cssPath);
+
+		document.getElementsByTagName("head")[0].appendChild(fileref);
+		
+
+		cssPath = "mobile.css";
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
@@ -33,15 +46,6 @@ if( isMobile.WindowsOS() ) alert('You are browsing from a computer!');
 
 // Testing
 
-	var fileref = document.createElement("link");
-	var cssPath = "html/css/standard.css";
-	
-	fileref.setAttribute("rel", "stylesheet");
-	fileref.setAttribute("type", "text/css");
-	fileref.setAttribute("href", cssPath);
 
-	document.getElementsByTagName("head")[0].appendChild(fileref);
-	
 
-	cssPath = "mobile.css";
 		
