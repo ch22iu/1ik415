@@ -37,15 +37,16 @@ body
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 	ul {
-	  text-align: left;
-	  background-color:#fff;
-	  margin-left:10px;
-	  margin-right:10px;
-	  border-radius:5px;
 	  padding: 1;
-	  border-radius:5px;
-	  list-style: none;
-	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	}
+	ul li 
+	{
+	  font: bold 12px/18px sans-serif;
+	  display: inline-block;
+	  margin-right: 2px;
+	  padding: 1;
+	  cursor: pointer;
+	  transition: all 0.2s;
 	}
 }
 
