@@ -48,13 +48,13 @@ body
     /*background-image:repeat-x;*/
 
 }
+
 ul {
   text-align: left;
   background-color:#fff;
   margin-left:10px;
   margin-right:10px;
   border-radius:5px;
-  float:left;
   padding: 15px 0px 15px 55px;
   border-radius:5px;
   list-style: none;
