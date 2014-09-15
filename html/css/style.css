@@ -52,11 +52,11 @@ body
 	  transition: all 0.2s;
 	}
 	.footer_bot a
-{
-	padding-left:1px;
-	padding-right:1px;
+	{
+		padding-left:1px;
+		padding-right:1px;
 
-}
+	}
 }
 
 /* #### Mobile Phones Landscape #### */
