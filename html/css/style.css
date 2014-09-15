@@ -18,6 +18,20 @@ body
 	margin-left:10px;
 	margin-right:10px;
 	padding-bottom:5px;
+	width:auto;
+	height:auto;
+}
+
+#section_main
+{
+	/* float:left; */
+	background-color:#fff;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:5px;
+	width:auto;
+	height:auto;
 }
 
 /*#start# { /* Design Nyheter 
@@ -130,17 +144,7 @@ ul li:hover ul {
   
 }
 
-#section_main
-{
-	/* float:left; */
-	background-color:#fff;
-	border-radius:10px;
-	margin-left:10px;
-	margin-right:10px;
-	padding-bottom:5px;
-	width:auto;
-	height:auto;
-}
+
 
 .footer_bot
 {
@@ -390,7 +394,6 @@ form {
 
 label {
 	display:block;
-	margin-top:20px;
 	letter-spacing:2px;
 }
 
