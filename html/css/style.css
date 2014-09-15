@@ -53,13 +53,6 @@ body
 	}
 	.footer_bot a
 {
-	font-size:8px;
-	font-variant:small-caps;
-	background:rgb(250,250,250);
-	color:gray;
-	/* float:left; */
-	font-family: georgian;
-	text-align:center;
 	padding-left:1px;
 	padding-right:1px;
 
@@ -68,7 +61,27 @@ body
 
 /* #### Mobile Phones Landscape #### */
 @media screen and (max-device-width: 640px) and (orientation: landscape){
-  /* some CSS here */
+ 	body {
+		font-size:5px;
+	}
+	ul {
+	  padding: 1px;
+	}
+	ul li 
+	{
+	  font: bold 12px/18px sans-serif;
+	  display: inline-block;
+	  margin-right: 2px;
+	  padding: 1px;
+	  cursor: pointer;
+	  transition: all 0.2s;
+	}
+	.footer_bot a
+{
+	padding-left:1px;
+	padding-right:1px;
+
+}
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
@@ -78,7 +91,27 @@ body
 
 /* #### iPhone 4+ Portrait or Landscape #### */
 @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-  /* some CSS here */
+  	body {
+		font-size:5px;
+	}
+	ul {
+	  padding: 1px;
+	}
+	ul li 
+	{
+	  font: bold 12px/18px sans-serif;
+	  display: inline-block;
+	  margin-right: 2px;
+	  padding: 1px;
+	  cursor: pointer;
+	  transition: all 0.2s;
+	}
+	.footer_bot a
+{
+	padding-left:1px;
+	padding-right:1px;
+
+}
 }
 
 /* #### Tablets Portrait or Landscape #### */
