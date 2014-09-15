@@ -27,7 +27,7 @@ var isMobile = {
 };
 var fileref = document.createElement("link");
 var loadMobilCss = function() {
-		cssPath = "html/css/style_mobile.css";
+		cssPath = "html/css/style_mobile2.css";
 		fileref.setAttribute("rel", "stylesheet");
 		fileref.setAttribute("type", "text/css");
 		fileref.setAttribute("href", cssPath);
