@@ -1,3 +1,4 @@
+
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -15,32 +16,28 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		var fileref = document.createElement("script");
-		var cssPath = "html/css/";
-		
-		cssPath = "style.css";
-		fileref.setAttribute("rel", "stylesheet");
-		fileref.setAttribute("type", "text/css");
-		fileref.setAttribute("href", cssPath);
-
-		document.getElementsByTagName("head")[0].appendChild(fileref);
 		
 		return navigator.userAgent.match(/Windows/i);
 	},
     any: function() {
+		loadMobilCss();
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
 
-function loadMobilCss() {
-	
+var loadMobilCss = function() {
+		var fileref = document.createElement("link");
+		cssPath = "html/css/style_mobile.css";
+		fileref.setAttribute("rel", "stylesheet");
+		fileref.setAttribute("type", "text/css");
+		fileref.setAttribute("href", cssPath);
+		
+		document.getElementsByTagName("head")[0].appendChild(fileref);
 }
 
 if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
-
-if( isMobile.WindowsOS() ) alert('You are browsing from a computer!!');
 
 // Testing
 
