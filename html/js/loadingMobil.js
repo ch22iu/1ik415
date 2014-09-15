@@ -1,7 +1,3 @@
-
-
-
-
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -19,7 +15,7 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
 	WindowsOS: function() {
-		var fileref = document.createElement("link");
+		var fileref = document.createElement("script");
 		var cssPath = "html/css/";
 		
 		cssPath = "style.css";
@@ -35,6 +31,10 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
+
+function loadMobilCss() {
+	
+}
 
 if( isMobile.any() ) alert('You are using a mobile');
 
