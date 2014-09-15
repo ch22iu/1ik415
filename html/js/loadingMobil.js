@@ -48,7 +48,7 @@ if( isMobile.any() ) alert('You are using a mobilephone!!!');
 
 if( isMobile.iOS() ) alert('iOS');
 
-if( isMobile.WindowsOS() );
+if( isMobile.WindowsOS() alert('Windows');
 // Testing
 
 
