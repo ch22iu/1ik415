@@ -34,4 +34,4 @@ if( isMobile.any() ) alert('You are using a mobile');
 
 if( isMobile.iOS() ) alert('iOS');
 
-// Test
+// Testing
