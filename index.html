@@ -2,9 +2,17 @@
 <html>
     <head>
 		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link href="html/css/style.css" rel="stylesheet" type="text/css" media="screen, handheld" />
 		<title>My first WebPage</title>
+		<script type="text/javascript"> 
+
+        if(deviceAgent.match(/android/i)){
+            controlCss = "html/css/style_mobile.css";
+            // use a solution that does not need jQuery
+            document.getElementById("cssLink").setAttribute("href", controlCss);
+        }
+
+</script>
     </head>
 <body>
     <nav id="nav_menu">
