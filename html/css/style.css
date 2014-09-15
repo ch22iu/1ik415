@@ -45,7 +45,27 @@ body
     font-family:arial;
     text-decoration:none;
 }
-
+ul {
+  text-align: left;
+  background-color:#fff;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:5px;
+  padding: 1;
+  border-radius:5px;
+  list-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li 
+{
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: 2px;
+  position: relative;
+  padding: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+}
 }
 
 /* #### Mobile Phones Landscape #### */
