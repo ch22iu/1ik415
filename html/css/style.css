@@ -7,12 +7,14 @@ body
 	height:auto;
     font-family:arial;
     text-decoration:none;
+	transition: left 0.6s;
     /*background-image: url('../img/coolkoala.jpg');*/
     /*background-image:repeat-x;*/
 
 }
 #startpost 
 { 
+	transition: all 0.6s;
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
@@ -32,6 +34,7 @@ body
 	padding-bottom:5px;
 	width:auto;
 	height:auto;
+	transition: all 0.6s;
 }
 
 
@@ -47,6 +50,13 @@ body
 	  display:none;
 	}
 } */
+
+#start
+{
+	transition: all 0.6s;
+	width:auto;
+	height:auto;
+}
 
 
 /*#start# { /* Design Nyheter 
@@ -73,6 +83,7 @@ ul {
   border-radius:5px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.6s;
 }
 ul li 
 {
@@ -159,8 +170,6 @@ ul li:hover ul {
   
 }
 
-
-
 .footer_bot
 {
 	margin-top:10px;
@@ -169,6 +178,7 @@ ul li:hover ul {
 	margin-right:10px;
 	border-radius:10px;
 	padding:15px;
+	transition: all 0.6s;
 }
 .footer_bot a
 {
@@ -179,8 +189,7 @@ ul li:hover ul {
 	/* float:left; */
 	font-family: georgian;
 	text-align:center;
-	padding-left:100px;
-	padding-right:100px;
+	padding-left:250px;
 
 }
 
