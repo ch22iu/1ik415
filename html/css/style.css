@@ -44,6 +44,7 @@ body
 	  padding: 1px;
 	  cursor: pointer;
 	  transition: all 0.2s;
+	  display:none;
 	}
 }
 
