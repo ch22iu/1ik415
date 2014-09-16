@@ -316,20 +316,38 @@ dd
 	width:450px;
 	border-radius:10px;
 	border-style:solid;
-	border-color:black;
 	height:250px;
+	border-color:black;
 }
 .videoClip
 {
 	width:380px;
 	margin-left:5px;
 	border:none;
-	
 	border:1px solid black;
 	border-radius:5px;
 	height:auto;
 }
-.pictures
+
+.svgsvg
+{
+	width:200px;
+	height:250px;
+	margin-left:50px;
+	fill:lime;
+	stroke:green;
+	stroke-width:5;
+	fill-rule:evenodd;
+}
+.svgsvg:hover
+{
+	width:200px;
+	height:250px;
+	fill:red;
+	stroke-width:6px;
+}
+
+.pictures,.pictures0,.pictures1,.pictures2
 {
 	background-image: url('../img/coolkoala.jpg');
     background-repeat: no-repeat;
@@ -341,6 +359,74 @@ dd
 	border:1px solid black;
 	border-radius:10px;
 }
+
+.pictures0:hover
+{
+	background-image: url('../img/coolkoala.jpg');
+    background-repeat:repeat-x;
+	background-origin: content-box;
+    width:140px;
+	height:120px;
+	padding-left:1px;
+	border-radius:450px 450px 450px 450px;
+}
+.pictures1:hover
+{
+	background-image: url('../img/coolkoala.jpg');
+    background-repeat:repeat-x;
+	background-origin: content-box;
+    width:140px;
+	height:120px;
+	padding-left:130px;
+	border-radius:450px 450px 450px 450px;
+}
+.pictures2:hover
+{
+	background-image: url('../img/coolkoala.jpg');
+    background-repeat:repeat-x;
+	background-origin: content-box;
+    width:140px;
+	height:120px;
+	padding-left:230px;
+	border-radius:450px 450px 450px 450px;
+}
+.svg
+{
+	background-image: url('../img/coolpic.svg');
+    background-repeat: no-repeat;
+	background-origin: content-box;
+    width:340px;
+	height:320px;
+	margin-left:25px;
+	margin-bottom:2px;
+	border:1px solid black;
+	border-radius:10px;
+}
+.svgTest
+{
+	background-image: url('../img/coolpic.svg');
+    background-repeat: no-repeat;
+	background-origin: content-box;
+	margin-left:25px;
+	margin-bottom:2px;
+	border:1px solid black;
+	border-radius:10px;
+	position:relative;
+	width:340px;
+	height:320px;
+}
+.svgTest:hover
+{
+	background-image: url('../img/coolpic.svg');
+    background-repeat: no-repeat;
+	background-origin: content-box;
+	padding-left:150px;
+	padding-bottom:165px;
+	padding-right:100px;
+	padding-top:0px;
+	border-radius:450px 450px 450px 450px;
+}
+
 #table_main
 {
 	border:1px solid black;
