@@ -34,7 +34,7 @@ body
 	height:auto;
 }
 
-/* #### Mobile Phones Portrait #### */
+
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 	ul li 
 	{
@@ -46,71 +46,6 @@ body
 	  transition: all 0.2s;
 	  display:none;
 	}
-}
-
-/* #### Mobile Phones Landscape #### */
-@media screen and (max-device-width: 640px) and (orientation: landscape){
- 	body {
-		font-size:5px;
-	}
-	ul {
-	  padding: 1px;
-	}
-	ul li 
-	{
-	  font: bold 12px/18px sans-serif;
-	  display: inline-block;
-	  margin-right: 2px;
-	  padding: 1px;
-	  cursor: pointer;
-	  transition: all 0.2s;
-	}
-	.footer_bot a
-{
-	padding-left:1px;
-	padding-right:1px;
-
-}
-}
-
-/* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width: 640px){
-  /* some CSS here */
-}
-
-/* #### iPhone 4+ Portrait or Landscape #### */
-@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-  	body {
-		font-size:5px;
-	}
-	ul {
-	  padding: 1px;
-	}
-	ul li 
-	{
-	  font: bold 12px/18px sans-serif;
-	  display: inline-block;
-	  margin-right: 2px;
-	  padding: 1px;
-	  cursor: pointer;
-	  transition: all 0.2s;
-	}
-	.footer_bot a
-{
-	padding-left:1px;
-	padding-right:1px;
-
-}
-}
-
-/* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-  /* some CSS here */
-}
-
-/* #### Desktops #### */
-@media screen and (min-width: 1024px){
-  /* some CSS here */
 }
 
 
