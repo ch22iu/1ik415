@@ -30,6 +30,15 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#a49598;
+	width:380px;
+	height:1024px;
+	height:auto;
+    font-family:arial;
+    text-decoration:none;
 }
 ol, ul {
 	list-style: none;
