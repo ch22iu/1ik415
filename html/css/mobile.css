@@ -26,14 +26,21 @@ body
 }
 .showlistmenu a
 {
-	font-size:100px;
+	position:relative;
+	font-size:45px;
+	font-size:25px;
+	margin-left:5px;
+	padding:25px;
+	top:50px;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align:center;
 }
 
 .showlistmenu a:hover
 {
-	padding-left:180px;
-	padding-bottom:50px;
-	padding-top:50px;
+	padding-left:78px;
+	opacity:0.6;
 }
 
 #nav_menu ul {
