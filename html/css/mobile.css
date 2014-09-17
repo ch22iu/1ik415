@@ -3,7 +3,7 @@ body
     font-size:15px;
 	margin-left:2px;
 	margin-right:2px;
-	background-color:#a49598;
+	background-color:red;
 	height:auto;
     font-family:arial;
     text-decoration:none;
@@ -12,8 +12,6 @@ body
 /* nav */
 #nav_menu 
 {
-
-	position: relative;
 	border-radius:10px;
 }
 #nav_menu ul {
