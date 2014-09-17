@@ -12,6 +12,11 @@ body
     /*background-image:repeat-x;*/
 
 }
+#showlistmenu
+{
+	display:none;
+}
+
 #startpost 
 { 
 	transition: all 0.6s;
