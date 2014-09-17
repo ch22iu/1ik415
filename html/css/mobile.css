@@ -15,6 +15,9 @@ body
 	border-radius:10px;
 }
 #nav_menu ul {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.6s;
+	border-radius:65px 0px 65px 0px;
 	margin-left:10px;
 	margin-right:10px;
 	margin-bottom:2px;
@@ -24,29 +27,42 @@ body
 	margin: 0 0px 1px 0;
 	padding: 0;
 	height:150px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.6s;
+	border-radius:65px 0px 65px 0px;
 	list-style: none;
 	display: inline-block;
+	
 }
 #nav_menu ul li ul {
 	padding: 3px 12px;
 	text-decoration: none;
 	display:none;
+	height:150px;
 	color: #999;
 	line-height: 100%;
+	
 }
 
 #nav_menu a {
 	padding: 3px 12px;
 	text-decoration: none;
-	float:Left;
 	color: #999;
-	line-height: 100%;
-	margin-left:5px;
-	margin-top:5px;
+	height:150px;
+	margin-left:1px;
+	margin-top:1px;
+}
+#nav_menu a:active {
+	color: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.6s;
+	border-radius:6px 0px 6px 0px;
 }
 #nav_menu a:hover {
 	color: white;
-	padding:5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.6s;
+	border-radius:6px 0px 6px 0px;
 }
 #nav_menu.current a {
 	background: #999;
@@ -162,7 +178,6 @@ ul li
 ul li:hover 
 {
 	background-color:#ff2052;
-	padding: 30px 20px 30px 20px;
 	border-radius:65px 0px 65px 0px;
 	color:white;
 }
@@ -179,25 +194,10 @@ ul li li a
 ul li li ul a
 {
 	color:black;
-	width:100px;
 	height:20px;
 }
 ul li li
 {
-	padding: 15px 10px 15px 10px;
-	border-radius:65px 0px 65px 0px;
-}
-
-ul li ul li:hover:nth-child(1)
-{
-	background-color:#ff2052;
-	padding: 30px 20px 30px 20px;
-	border-radius:65px 0px 65px 0px;
-}
-ul li ul li:hover:nth-child(2)
-{
-	background-color:#ff2052;
-	padding: 30px 20px 30px 20px;
 	border-radius:65px 0px 65px 0px;
 }
 
@@ -215,7 +215,6 @@ ul li ul {
 
 ul li ul li { 
   background: white; 
-  display: block; 
   color: white;
   text-shadow: 0 -1px 0 #000;
 }
