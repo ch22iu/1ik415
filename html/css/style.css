@@ -18,6 +18,10 @@ body
 }
 #showmenu 
 {
+	display:block;
+}
+#showmenu p
+{
 	display:none;
 }
 

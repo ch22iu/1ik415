@@ -31,15 +31,17 @@ body
 }
 #showmenu p 
 {
-	display:none;
+	display:block;
 	text-align:center;
+	width:auto;
+	height:auto;
 }
-#showmenu:hover > p
+#showmenu:hover > ul
 {
 	display:block;
 	visibility:visible;
 }
-#showmenu:hover > ul
+#showmenu:active > ul
 {
 	display:block;
 	visibility:visible;
