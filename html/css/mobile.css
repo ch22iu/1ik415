@@ -1,4 +1,8 @@
-
+body 
+{
+	margin-left:auto;
+	margin-right:auto;
+}
 ul {  
     background: #333; 
     height: 30px;
