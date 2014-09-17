@@ -364,7 +364,6 @@ dd
 }
 .ollist
 {
-	display:none;
 	border-radius:10px;
 	background-color:white;
 	margin-right:10px;
@@ -527,26 +526,27 @@ td
 
 #labb 
 {
-  text-align: left;
-  background-color:#fff;
-  border-radius:5px;
-  padding: 5px 10px 8px 0px;
-  border-radius:5px;
-  list-style: none;
-  margin-left:5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	display:none;
+	text-align: left;
+	background-color:#fff;
+	border-radius:5px;
+	padding: 5px 10px 8px 0px;
+	border-radius:5px;
+	list-style: none;
+	margin-left:5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 #labben 
 {
-  text-align: left;
-  display: inline;
-  background-color:#fff;
-  border-radius:5px;
-  padding: 5px 10px 8px 0px;
-  border-radius:5px;
-  list-style: none;
-  margin-left:5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	text-align: left;
+	display: inline;
+	background-color:#fff;
+	border-radius:5px;
+	padding: 5px 10px 8px 0px;
+	border-radius:5px;
+	list-style: none;
+	margin-left:5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 form {
