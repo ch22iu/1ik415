@@ -58,8 +58,8 @@ body
 
 .showlistmenu
 {
-	width:350px;
-	height:250px;
+	width:750px;
+	height:350px;
 	display:block;
 }
 .showlistmenu:hover
@@ -73,7 +73,8 @@ body
 	font-size:25px;
 	margin-left:5px;
 	padding:25px;
-	top:50px;
+	top:100px;
+	left:100px;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align:center;
