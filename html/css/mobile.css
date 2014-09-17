@@ -28,6 +28,7 @@ body
 	list-style: none;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
+	height:1000px;
 }
 #showmenu p 
 {
