@@ -16,8 +16,8 @@ body
 }
 .showlistmenu
 {
-	width:auto;
-	height:auto;
+	width:250px;
+	height:150px;
 	display:block;
 }
 .showlistmenu:hover
@@ -26,11 +26,7 @@ body
 }
 .showlistmenu a
 {
-	width:280px;
-	font-size:40px;
-	padding-left:150px;
-	margin-top:20px;
-	height:930px;
+	font-size:100px;
 }
 
 .showlistmenu a:hover
