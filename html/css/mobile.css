@@ -42,7 +42,7 @@ body
 #showmenu p:first-letter
 {
 	font-size:45px;
-	color:pink;
+	color:#FFC0CB;
 }
 
 #showmenu:hover > ul
@@ -55,6 +55,7 @@ body
 	display:block;
 	visibility:visible;
 }
+
 
 .showlistmenu
 {
@@ -80,7 +81,6 @@ body
 }
 .showlistmenu a:first-letter
 {
-	font-size:45px;
 	color:pink;
 }
 
@@ -101,6 +101,7 @@ body
 	padding-left: 50px;
 }
 #nav_menu li {
+	color:#a49598;
 	margin: 0 0px 1px 0;
 	padding: 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -108,31 +109,38 @@ body
 	border-radius:65px 0px 65px 0px;
 	list-style: none;
 	display: inline-block;
-	
+}
+
+#nav_menu li:first-letter {
+	color:pink;
 }
 #nav_menu ul li ul {
 	padding: 3px 12px;
 	text-decoration: none;
 	display:none;
 	height:150px;
-	color: #999;
+	color:#a49598;
 	line-height: 100%;
 	
 }
 
 
 #nav_menu a:active {
-	color: white;
+	color:#a49598;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
 	opacity:999;
 	border-radius:65px 0px 65px 0px;
 }
 #nav_menu a:hover {
-	color: white;
+	color:white;
 	transition: all 0.6s;
-	opacity:999;
+	opacity:0.9;
 	border-radius:6px 0px 6px 0px;
+}
+#nav_menu a:first-letter
+{
+	color:pink;
 }
 #nav_menu.current a {
 	background: #999;
@@ -208,6 +216,7 @@ ul {
   margin-right:10px;
   border-radius:5px;
   padding: 5px 0px 5px 5px;
+  color:#a49598;
   border-radius:5px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -245,6 +254,7 @@ ul li li a
 	color:black;
 	border-radius:65px 0px 65px 0px;
 }
+
 ul li li ul a
 {
 	color:black;
@@ -388,7 +398,7 @@ li
 a
 {
      text-decoration:none;
-     color:black;
+     color:#a49598;
 }
 
 #typeTextDot,#typeTextDot1,#typeTextDot2,#typeTextDot3,#typeTextDot4,#typeTextDot5,#typeTextDot6
