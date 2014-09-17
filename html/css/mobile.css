@@ -34,8 +34,17 @@ body
 	display:block;
 	text-align:center;
 	width:auto;
+	color:#a49598;
 	height:auto;
+	opacity:0.8;
+	font-family:arial;
 }
+#showmenu p:first-letter
+{
+	font-size:45px;
+	color:pink;
+}
+
 #showmenu:hover > ul
 {
 	display:block;
