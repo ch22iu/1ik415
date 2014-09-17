@@ -76,11 +76,33 @@ ul {
   margin-left:10px;
   margin-right:10px;
   border-radius:5px;
-  padding: 15px 0px 15px 55px;
+  padding: 5px 0px 5px 5px;
+  display:none;
   border-radius:5px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   transition: all 0.6s;
+}
+#showmenu 
+{
+	text-align: left;
+	background-color:#fff;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:5px;
+	padding: 5px 0px 5px 5px;
+	display:none;
+	border-radius:5px;
+	list-style: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.6s;
+	width:50px;
+	height:50px;
+	display:inline;
+}
+#showmenu:active
+{
+	display:block;
 }
 ul li 
 {
