@@ -4,3 +4,8 @@ body
 	margin-right:auto;
 	background-color:red;
 }
+
+ul 
+{
+	float:left;
+}
