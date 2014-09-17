@@ -2,26 +2,37 @@
 <html>
     <head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen, handheld" />
-		<link href="../css/style.css" id="cssLink" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" rel="stylesheet" type="text/css" />
-		<link href="../css/mobile.css" rel="stylesheet" media="screen and (max-device-width: 480px)" type="text/css" />
+		<link rel="apple-touch-icon" href="../img/homeScreen.png" />
+		<link href="../css/print.css" rel="stylesheet" type="text/css" media="print" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"  />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"  />
+		<link href="../css/mobile.css" rel="stylesheet" media="screen and (max-device-width: 480px)" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" type="text/css" />
+		<link href="../css/mobile.css" rel="stylesheet" media="screen and (max-device-width: 1024px)" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" type="text/css" />
+<!-- 		<script type="text/javascript"> 
+
+        if(navigator.userAgent.match(/android/i)){
+            controlCss = "html/css/style_mobiles.css";
+            // use a solution that does not need jQuery
+            document.getElementById("cssLink").setAttribute("href", controlCss);
+        }
+		</script> -->
     </head>
 <body>
-	<nav id="nav_menu">
+    <nav id="nav_menu">
+		<div id="showmenu"><p>Navigation</p>
         <ul>
-            <li class="mainLi"><a href="../../index.html">Start</a></li>
-			<li><a href="../pages/labb/mylabs.html">My Lab</a>
+            <li class="showlistmenu"><a href="../../index.html" >Start</a></li>
+			<li class="showlistmenu"><a href="../pages/labb/mylabs.html">My Lab</a>
 				<ul>
 					<li><a href="../pages/labb/lab_table.html">Tables</a></li>
 					<li><a href="../pages/labb/lab_form.html">Forms</a></li>
 				</ul>
 				</li>
-            <li class="mainLi"><a href="bottom.html">About Me</a></li>
-            <li class="mainLi"><a href="videos.html">Videos</a></li>
-            <li class="mainLi"><a href="images.html">Images</a></li>
-			<li class="mainLi"><a href="contact.html">Contact</a></li>
+            <li class="showlistmenu"><a href="../pages/bottom.html" >About Me</a></li>
+            <li class="showlistmenu"><a href="../pages/videos.html">Videos</a></li>
+            <li class="showlistmenu"><a href="../pages/images.html">Images</a></li>
+			<li class="showlistmenu"><a href="../pages/contact.html">Contact</a></li>
         </ul>
+		</div>
     </nav>
     <section id="section_main">
         <div id="start">
