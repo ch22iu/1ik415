@@ -299,7 +299,6 @@ ul li:hover ul {
 }
 
 .footer_bot
-.footer_bot
 {
 	margin-top:10px;
 	background-color:#fff;
@@ -316,14 +315,17 @@ ul li:hover ul {
 .footer_bot a
 {
 	color:grey;
+	font-size:25px;
 }
 .footer_bot p:first-letter
 {
 	color:pink;
-	
+	font-size:30px;
 }
 .footer_bot p
 {
+	margin-left:auto;
+	margin-right:auto;
 	color:grey;
 	font-size:35px;
 	text-align:center;
