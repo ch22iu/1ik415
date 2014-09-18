@@ -186,42 +186,30 @@ ul li:hover ul {
 
 .footer_bot
 {
-	margin-top:0px;
+	margin-top:10px;
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
 	margin-right:10px;
-	position:absolute;
-	left:auto;
-	top:1030px;
-	right:auto;
 	width:auto;
-	float:left;
-	padding:35px;
 	height:auto;
+	padding-top:5px;
+	padding-bottom:10px;
 	transition: all 0.6s;
 }
 
 .footer_bot a
 {
-	margin-top:15px;
-	padding-left:5px;
-	padding-top:10px;
-	margin-bottom:5px;
-	font-size:13px;
-	margin-left:5px;
-	margin-right:5px;
-	background:rgb(250,250,250);
-	color:gray;
-	width:auto;
-	font-family: Georgia;
-	height:25px;
-	border-radius:5px;
-	border: 1px solid #E8E8E8;
+	color:grey;
 }
-.footer_bot:first-letter
+.footer_bot p:first-letter
 {
 	color:pink;
+}
+.footer_bot p
+{
+	text-align:center;
+	color:grey;
 }
 
 h1

@@ -299,42 +299,32 @@ ul li:hover ul {
 }
 
 .footer_bot
+.footer_bot
 {
-	position:relative;
-	z-index: 999px;
-	left:auto;
-	right:auto;
-	top:10px;
+	margin-top:10px;
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
 	margin-right:10px;
-	padding-bottom:5px;
-	float:left;
 	width:auto;
 	height:auto;
+	padding-top:5px;
+	padding-bottom:10px;
 	transition: all 0.6s;
 }
+
 .footer_bot a
 {
-	margin-top:15px;
-	padding-left:5px;
-	padding-top:10px;
-	margin-bottom:5px;
-	font-size:13px;
-	margin-left:5px;
-	margin-right:5px;
-	background:rgb(250,250,250);
-	color:gray;
-	width:auto;
-	font-family: Georgia;
-	height:25px;
-	border-radius:5px;
-	border: 1px solid #E8E8E8;
+	color:grey;
 }
-.footer_bot a:first-letter
+.footer_bot p:first-letter
 {
 	color:pink;
+}
+.footer_bot p
+{
+	color:grey;
+	text-align:center;
 }
 
 h1
