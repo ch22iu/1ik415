@@ -117,6 +117,17 @@ ul li:hover
 	border-radius:65px 0px 65px 0px;
 	color:white;
 }
+ul li a 
+{
+	color:grey;
+	font-size:35px;
+	font-family:Georgia;
+}
+ul li:first-letter 
+{
+	color:pink;
+	border-radius:65px 0px 65px 0px;
+}
 
 ul li a:hover 
 {

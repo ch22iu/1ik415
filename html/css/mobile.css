@@ -70,13 +70,9 @@ body
 .showlistmenu a
 {
 	position:relative;
-	font-size:65px;
-	margin-left:5px;
-	padding:25px;
+	padding:200px;
 	top:150px;
 	left:250px;
-	margin-top:15px;
-	margin-bottom:15px;
 	text-align:center;
 }
 .showlistmenu a:first-letter
