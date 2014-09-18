@@ -162,11 +162,11 @@ ul li ul li:hover:nth-child(2)
 }
 
 ul li ul {
-  padding:1px;
+  padding:10px;
   position: absolute;
   top: 35px;
   left: 5px;
-  width:200px;
+  width:150px;
   height:80px;
   box-shadow: none;
   display: block;
@@ -174,9 +174,10 @@ ul li ul {
   color:white;
   opacity: 0.1;
   visibility: hidden;
-  border:1px solid;
+  border-width:0px 2px 5px 2px;
+  border-style:solid;
   border-color:grey;
-  border-radius:0px 0px 255px 25px;
+  border-radius:2px 50px 5px 5px;
 }
 
 ul li ul li { 
