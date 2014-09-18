@@ -102,7 +102,7 @@ ul {
 ul li 
 {
   font: bold 12px/18px sans-serif;
-  display: inline-block;
+  display: block;
   margin-right: 2px;
   position: relative;
   padding: 30px 20px 30px 20px;
@@ -121,6 +121,7 @@ ul li a
 {
 	color:grey;
 	font-size:35px;
+	padding: 30px 20px 30px 20px;
 	font-family:Georgia;
 }
 ul li:first-letter 
