@@ -39,7 +39,6 @@ body
 
 #section_main
 {
-	/* float:left; */
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
@@ -66,6 +65,7 @@ body
 
 #start
 {
+	padding-top:1px;
 	transition: all 0.6s;
 	width:auto;
 	height:auto;
@@ -90,6 +90,7 @@ ul {
   text-align: left;
   background-color:#fff;
   margin-left:10px;
+  position:relative;
   margin-right:10px;
   border-radius:5px;
   padding: 15px 0px 15px 55px;
@@ -185,27 +186,38 @@ ul li:hover ul {
 
 .footer_bot
 {
-	margin-top:10px;
+	margin-top:0px;
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
 	margin-right:10px;
-	padding-bottom:5px;
+	position:absolute;
+	left:auto;
+	top:1030px;
+	right:auto;
 	width:auto;
+	float:left;
+	padding:35px;
 	height:auto;
 	transition: all 0.6s;
 }
+
 .footer_bot a
 {
-	font-variant:small-caps;
+	margin-top:15px;
+	padding-left:5px;
+	padding-top:10px;
+	margin-bottom:5px;
+	font-size:13px;
+	margin-left:5px;
+	margin-right:5px;
 	background:rgb(250,250,250);
-	color:grey;
-	font-size:23px;
-	position:relative;
-	left:85px;
-	padding:1px;
-	font-family: georgian;
-	text-align:center;
+	color:gray;
+	width:auto;
+	font-family: Georgia;
+	height:25px;
+	border-radius:5px;
+	border: 1px solid #E8E8E8;
 }
 .footer_bot:first-letter
 {
@@ -225,7 +237,7 @@ h1
 	width:auto;
 	font-family: Georgia;
 	margin-right:5px;
-	height:40px;
+	height:30px;
 	border-radius:5px;
 	border: 1px solid #E8E8E8;
     
