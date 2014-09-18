@@ -70,9 +70,9 @@ body
 .showlistmenu a
 {
 	position:relative;
-	padding:150px;
-	padding-left:200px;
-	padding-right:200px;
+	padding-top:95px;
+	padding-left:150px;
+	padding-right:150px;
 	top:150px;
 	left:250px;
 	text-align:center;
@@ -84,7 +84,9 @@ body
 
 .showlistmenu a:hover
 {
-	padding-left:78px;
+	padding-top:95px;
+	padding-left:150px;
+	padding-right:150px;
 	opacity:0.6;
 }
 
