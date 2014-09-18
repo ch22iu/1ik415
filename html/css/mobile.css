@@ -70,7 +70,9 @@ body
 .showlistmenu a
 {
 	position:relative;
-	padding:200px;
+	padding:150px;
+	padding-left:200px;
+	padding-right:200px;
 	top:150px;
 	left:250px;
 	text-align:center;
