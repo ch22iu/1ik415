@@ -189,6 +189,7 @@ body
 
 #start
 {
+	margin-top:10px;
 	padding-top:1px;
 	transition: all 0.6s;
 	width:auto;
