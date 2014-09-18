@@ -320,10 +320,12 @@ ul li:hover ul {
 .footer_bot p:first-letter
 {
 	color:pink;
+	
 }
 .footer_bot p
 {
 	color:grey;
+	font-size:35px;
 	text-align:center;
 }
 
