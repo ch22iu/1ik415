@@ -6,6 +6,7 @@ body
 	background-color:#a49598;
 	height:auto;
     font-family:arial;
+	font-size:45px;
     text-decoration:none;
 	width:auto;
 	height:auto;
@@ -356,7 +357,7 @@ ul {
   margin-left:10px;
   margin-right:10px;
   border-radius:5px;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 0px 55px 5px;
   color:#a49598;
   border-radius:5px;
   list-style: none;
@@ -448,6 +449,7 @@ ul li:hover ul {
 	margin-right:10px;
 	float:none;
 	width:auto;
+	font-size:55px;
 	height:auto;
 	padding-top:5px;
 	padding-bottom:20px;
@@ -458,6 +460,7 @@ ul li:hover ul {
 .footer_bot a
 {
 	color:grey;
+	font-size:25px;
 }
 .footer_bot p:first-letter
 {
@@ -469,8 +472,8 @@ ul li:hover ul {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:0px;
-	margin-bottom:45px;
-	padding-bottom:95px;
+	margin-bottom:5px;
+	padding-bottom:5px;
 	color:grey;
 	text-align:center;
 }
@@ -537,8 +540,8 @@ p
 	padding-left:15px;
 	padding-top:1px;
 	margin-bottom:20px;
-	font-size:15px;
 	margin-left:5px;
+	font-size:55px;
 	color:gray;
 	width:auto;
 	font-family: Georgia;
@@ -599,6 +602,7 @@ dd
 	border-radius:10px;
 	background-color:white;
 	margin-right:10px;
+	font-size:185px;
 	
 }
 .vid_pictures
@@ -754,6 +758,7 @@ td
 	width:180px;
 	height:80px;
 	color:black;
+	font-size:55px;
 }
 
 #labb 
@@ -763,6 +768,7 @@ td
   border-radius:5px;
   padding: 5px 10px 8px 0px;
   border-radius:5px;
+  font-size:55px;
   list-style: none;
   margin-left:5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
