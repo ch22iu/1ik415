@@ -211,11 +211,10 @@ ul {
   position:relative;
   margin-right:0px;
   border-radius:1px;
-  padding: 45px 45px 45px 55px;
+  padding: 55px 0px 55px 0px;
   border-radius:1px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  transition: all 0.6s;
 }
 ul li 
 {
@@ -234,12 +233,11 @@ ul li:hover
 	border:1px solid white;
 	color:grey;
 	border-radius:0px 25px 0px 25px;
-	padding:5px 10px 15px 15px;
 }
 ul li a 
 {
 	color:grey;
-	font-size:45px;
+	font-size:38px;
 	font-family:Georgia;
 	border-radius:0px 25px 0px 25px;
 }
@@ -247,7 +245,6 @@ ul li a
 ul li:first-letter 
 {
 	color:pink;
-	border-radius:65px 0px 65px 0px;
 }
 
 ul li a:hover 
