@@ -275,8 +275,8 @@
 #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
 	font: 2.8em "controls";
 	z-index:60;
-	color: #60CAC0;
-	background-color:#fff;
+	color: pink;
+	background-color:grey;
 	overflow: hidden;
 	width: 1.6em;
 	height: 1.6em;
