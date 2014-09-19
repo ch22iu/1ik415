@@ -253,7 +253,12 @@ body
 	z-index:9999;
 	display:block;
 	float:right;
+	text-align:center;
 	transition: all 0.6s;
+}
+#popup_menu h1
+{
+	font-size:45px;
 }
 	#pop
 	{
@@ -271,15 +276,18 @@ body
 		height:auto;
 		border:1px solid black;
 		transition: all 0.6s;
+		text-align:center;
 	}
 	#pop h1
 	{
-		font-size:35px;
+		font-size:55px;
 		height:65px;
+		text-align:center;
 	}
 	#pop a
 	{
-		height:35px;
+		text-align:center;
+		height:65px;
 	}
 #popup_menu:hover > #pop
 {
