@@ -260,16 +260,26 @@ body
 		display:none;
 		border-radius:10px;
 		position:relative;
-		bottom:500px;
+		bottom:80px;
+		right:10px;
+		left:13px;
+		float:right;
 		padding-bottom:5px;
 		z-index:9999;
 		clear:both;
-		float:left;
-		width:480px;
-		height:1024px;
+		width:987px;
+		height:1303px;
 		border:1px solid black;
-		right:550px;
 		transition: all 0.6s;
+	}
+	#pop h1
+	{
+		font-size:35px;
+		height:65px;
+	}
+	#pop a
+	{
+		height:35px;
 	}
 #popup_menu:hover > #pop
 {
