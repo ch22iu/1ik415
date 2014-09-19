@@ -273,6 +273,8 @@ ul li ul li:hover:nth-child(2)
 	
 }
 
+
+
 ul li ul {
   position: absolute;
   top: 25px;
@@ -486,7 +488,9 @@ dd
 }
 .videoClip
 {
-	width:380px;
+	margin-left:50px;
+	margin-right:auto;
+	width:280px;
 	margin-left:5px;
 	border:none;
 	border:1px solid black;
