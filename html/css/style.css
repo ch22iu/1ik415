@@ -276,7 +276,7 @@ ul li ul li:hover:nth-child(2)
 ul li ul {
   position: absolute;
   top: 25px;
-  left: 5px;
+  left: 55px;
   float:left;
   width:310px;
   font-size:25px;
