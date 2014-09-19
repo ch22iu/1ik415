@@ -139,10 +139,10 @@ body
 		background-color:#fff;
 		border-radius:10px;
 		margin-left:10px;
-		margin-right:10px;
 		position:relative;
+		clear:right;
 		float:left;
-		width:auto;
+		width:690px;
 		height:auto;
 		padding-bottom:15px;
 		transition: all 0.6s;
