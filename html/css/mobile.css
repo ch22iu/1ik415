@@ -260,12 +260,13 @@ body
 		display:none;
 		border-radius:10px;
 		position:relative;
-		right:100px;
-		top:1px;
+		bottom:500px;
 		padding-bottom:5px;
 		z-index:9999;
-		width:500px;
-		height:900px;
+		clear:both;
+		float:left;
+		width:480px;
+		height:1024px;
 		border:1px solid black;
 		right:550px;
 		transition: all 0.6s;
