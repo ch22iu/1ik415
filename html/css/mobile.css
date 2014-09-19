@@ -66,11 +66,13 @@ body
 {
 	display:block;
 	transition: all 0.6s;
+	z-index:9999;
 	visibility:visible;
 }
 #showmenu:active > ul
 {
 	display:block;
+	z-index:9999;
 	visibility:visible;
 }
 
@@ -79,11 +81,13 @@ body
 {
 	width:750px;
 	height:350px;
+	z-index:9999;
 	display:block;
 }
 .showlistmenu:hover
 {
 	display:block;
+	z-index:9999;
 }
 .showlistmenu a
 {
@@ -250,7 +254,7 @@ body
 	margin-right:12px;
 	width:100px;
 	height:70px;
-	z-index:9999;
+	z-index:888;
 	display:block;
 	float:right;
 	text-align:center;
@@ -258,7 +262,8 @@ body
 }
 #popup_menu h1
 {
-	font-size:45px;
+	font-size:25px;
+	border:3px solid black;
 }
 	#pop
 	{
@@ -281,13 +286,14 @@ body
 	#pop h1
 	{
 		font-size:55px;
-		height:65px;
+		height:105px;
 		text-align:center;
 	}
 	#pop a
 	{
 		text-align:center;
-		height:65px;
+		font-size:25px;
+		height:205px;
 	}
 #popup_menu:hover > #pop
 {
@@ -417,11 +423,13 @@ ul li ul li:hover
 { 
 	background: #ff3a66; 
 	color:white;
+	z-index:9999;
 	
 }
 ul li:hover ul {
   display: block;
   opacity: 1;
+  z-index:9999;
   visibility: visible;
   color:white;
   
