@@ -456,7 +456,10 @@ ul li:hover ul {
 }
 .footer_bot h1
 {
-	height:95px;
+	height:75px;
+	margin-top:25px;
+	margin-bottom:1px;
+	
 }
 
 .footer_bot a
@@ -543,7 +546,7 @@ p
 	padding-top:1px;
 	margin-bottom:20px;
 	margin-left:5px;
-	font-size:55px;
+	font-size:34px;
 	color:gray;
 	width:auto;
 	font-family: Georgia;
