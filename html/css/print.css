@@ -19,6 +19,14 @@ body
 {
 	display:none;
 }
+#pop
+{
+	display:none;
+}
+#popup_menu
+{
+	display:none;
+}
 
 #nav_menu ul {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
