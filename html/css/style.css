@@ -8,6 +8,8 @@ body
 	box-shadow: 0 0 1050px 25px white;
 	padding:20px 0;
 	position:relative;
+	width:auto;
+	height:auto;
 	margin-left:250px;
 	overflow:auto;
 	margin-right:250px;
@@ -77,6 +79,8 @@ body
 {
 	position:relative;
 	width:auto;
+	clear:left;
+	float:none;
 	height:auto;
 
 }
@@ -87,31 +91,65 @@ body
 	margin-left:10px;
 	margin-right:10px;
 	position:relative;
+	margin-bottom:15px;
 	width:auto;
 	height:auto;
 	padding-bottom:5px;
 	transition: all 0.6s;
 	}
-
-#section_main2
+#secondary
 {
 	position:relative;
 	width:auto;
 	height:auto;
+	display:block;
 }
+	#secondary_section
+	{
+		background-color:#fff;
+		border-radius:10px;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:10px;
+		clear:both;
+		position:relative;
+		z-index:9999;
+		float:left;
+		width:450px;
+		height:700px;
+		padding-bottom:55px;
+		transition: all 0.6s;
+	}
+	
 	#start_second
 	{
 		background-color:#fff;
-	border-radius:10px;
-	margin-left:10px;
-	margin-right:10px;
-	position:relative;
-	width:auto;
-	height:auto;
-	padding-bottom:5px;
-	transition: all 0.6s;
+		border-radius:10px;
+		margin-left:10px;
+		margin-right:10px;
+		position:relative;
+		float:left;
+		width:auto;
+		height:auto;
+		padding-bottom:15px;
+		transition: all 0.6s;
+	}
+		#start_third
+	{
+		background-color:#fff;
+		border-radius:10px;
+		margin-left:10px;
+		margin-right:10px;
+		position:relative;
+		float:left;
+		width:auto;
+		height:auto;
+		padding-bottom:15px;
+		transition: all 0.6s;
 	}
 
+
+	
 #popup_menu
 {
 	position:relative;
@@ -148,6 +186,8 @@ body
 	display:block;
 	transition: all 0.6s;
 }
+
+
 	
 	
 ul {
@@ -263,6 +303,8 @@ ul li:hover ul {
 	border-radius:10px;
 	margin-left:10px;
 	margin-right:10px;
+	clear:both;
+	float:none;
 	width:auto;
 	height:auto;
 	position:relative;

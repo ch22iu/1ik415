@@ -7,6 +7,7 @@ body
 	height:auto;
     font-family:arial;
     text-decoration:none;
+	width:auto;
 	transition: top 0.6s;
 	border-radius:10px 5px 10px 5px;
 	border:1px solid white;
@@ -185,6 +186,7 @@ body
 	background-color:#fff;
 	border-radius:10px;
 	margin-left:10px;
+	float:none;
 	margin-right:10px;
 	padding-bottom:5px;
 	width:auto;
@@ -211,9 +213,31 @@ body
 	margin-top:10px;
 	padding-top:1px;
 	transition: all 0.6s;
+	float:none;
 	width:auto;
 	height:auto;
 }
+
+#section_main2
+{
+	position:relative;
+	width:auto;
+	float:left;
+	height:auto;
+	display:none;
+}
+	#start_second
+	{
+		background-color:#fff;
+		border-radius:10px;
+		margin-left:10px;
+		margin-right:10px;
+		position:relative;
+		width:auto;
+		height:auto;
+		padding-bottom:5px;
+		transition: all 0.6s;
+	}
 
 #popup_menu
 {
@@ -247,6 +271,30 @@ body
 	display:block;
 	transition: all 0.6s;
 }
+
+#secondary
+{
+	width:auto;
+	height:auto;
+	display:none;
+	float:none;
+	position:relative;
+}
+	#secondary_section
+	{
+		background-color:#fff;
+		border-radius:10px;
+		margin-left:10px;
+		margin-right:10px;
+		position:relative;
+		display:none;
+		float:none;
+		z-index:9999;
+		width:auto;
+		height:auto;
+		padding-bottom:5px;
+		transition: all 0.6s;
+	}
 
 
 
@@ -358,6 +406,7 @@ ul li:hover ul {
 	border-radius:10px;
 	margin-left:10px;
 	margin-right:10px;
+	float:none;
 	width:auto;
 	height:auto;
 	padding-top:5px;
