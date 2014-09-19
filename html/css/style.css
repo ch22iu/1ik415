@@ -11,9 +11,9 @@ body
 	border:3px solid white;
 	width:1024px;
 	height:auto;
-	margin-left:250px;
+	margin-left:auto;
+	margin-right:auto;
 	overflow:auto;
-	margin-right:250px;
 
 /*     font-size:15px;
 	margin-left:250px;
@@ -56,7 +56,7 @@ body
 	transition: all 0.6s;
 	background-color:#fff;
 	border-radius:1px;
-	margin-left:10px;
+	margin-left:0px;
 	margin-right:10px;
 	padding-bottom:5px;
 	width:auto;
@@ -89,8 +89,8 @@ body
 	{
 	background-color:#fff;
 	border-radius:1px;
-	margin-left:10px;
-	margin-right:10px;
+	margin-left:0px;
+	margin-right:0px;
 	position:relative;
 	margin-bottom:15px;
 	width:auto;
@@ -109,7 +109,7 @@ body
 	{
 		background-color:#fff;
 		border-radius:1px;
-		margin-left:10px;
+		margin-left:0px;
 		margin-right:10px;
 		position:relative;
 		float:left;
@@ -124,11 +124,11 @@ body
 	{
 		background-color:#fff;
 		border-radius:1px;
-		margin-left:10px;
-		margin-right:10px;
+		margin-left:0px;
+		margin-right:0px;
 		position:relative;
 		float:left;
-		width:491px;
+		width:523px;
 		height:auto;
 		padding-bottom:1px;
 		transition: all 0.6s;
@@ -137,8 +137,8 @@ body
 	{
 		background-color:#fff;
 		border-radius:1px;
-		margin-left:10px;
-		margin-right:10px;
+		margin-left:0px;
+		margin-right:0px;
 		position:relative;
 		clear:both;
 		width:auto;
@@ -207,12 +207,12 @@ h8:first-letter
 ul {
   text-align: left;
   background-color:#fff;
-  margin-left:10px;
+  margin-left:0px;
   position:relative;
-  margin-right:10px;
+  margin-right:0px;
   border-radius:1px;
-  padding: 15px 0px 15px 55px;
-  border-radius:5px;
+  padding: 45px 45px 45px 55px;
+  border-radius:1px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   transition: all 0.6s;
@@ -239,7 +239,7 @@ ul li:hover
 ul li a 
 {
 	color:grey;
-	font-size:15px;
+	font-size:45px;
 	font-family:Georgia;
 	border-radius:0px 25px 0px 25px;
 }
@@ -312,11 +312,11 @@ ul li:hover ul {
 
 .footer_bot
 {
-	margin-top:10px;
+	margin-top:5px;
 	background-color:#fff;
 	border-radius:1px;
-	margin-left:10px;
-	margin-right:10px;
+	margin-left:0px;
+	margin-right:0px;
 	clear:both;
 	float:none;
 	width:auto;
@@ -471,7 +471,7 @@ dd
 {
 	border-radius:1px;
 	background-color:white;
-	margin-right:10px;
+	margin-right:0px;
 }
 .ollist:first-letter
 {

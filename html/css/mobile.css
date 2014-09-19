@@ -51,7 +51,8 @@ body
 	display:block;
 	text-align:center;
 	width:auto;
-	color:#a49598;
+	color:grey;
+	font-size:45px;
 	height:auto;
 	opacity:0.8;
 	font-family:arial;
