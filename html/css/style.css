@@ -1,10 +1,23 @@
 body
 {
-    font-size:15px;
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:black;
+	background-image: url('../img/coolkoala.jpg');
+	background-attachment:fixed;
+	box-shadow: 0 0 1050px 25px white;
+	padding:20px 0;
+	position:relative;
+	margin-left:250px;
+	overflow:auto;
+	margin-right:250px;
+
+/*     font-size:15px;
 	margin-left:250px;
 	margin-right:250px;
 	background-color:#a49598;
 	height:auto;
+	position:absolute;
     font-family:arial;
 	box-shadow: 0 0 1050px 25px white;
     text-decoration:none;
@@ -14,11 +27,13 @@ body
 	border-style:solid;
 	border-color:#a49598;
 	padding-top:1px;
-	padding-bottom:10px;
+	padding-bottom:10px; */
     /*background-image: url('../img/coolkoala.jpg');*/
     /*background-image:repeat-x;*/
 
 }
+
+
 #showlistmenu
 {
 	display:none;
@@ -46,17 +61,6 @@ body
 	height:auto;
 }
 
-#section_main
-{
-	background-color:#fff;
-	border-radius:10px;
-	margin-left:10px;
-	margin-right:10px;
-	padding-bottom:5px;
-	width:auto;
-	height:auto;
-	transition: all 0.6s;
-}
 
 
 /* @media screen and (max-device-width: 480px) and (orientation: portrait){
@@ -72,29 +76,47 @@ body
 	}
 } */
 
-#start
+#section_main
 {
-	padding-top:1px;
+	position:relative;
+	width:auto;
+	height:auto;
+
+}
+	#start
+	{
+	background-color:#fff;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+	width:auto;
+	height:auto;
+	padding-bottom:5px;
 	transition: all 0.6s;
+	}
+
+#section_main2
+{
+	position:relative;
 	width:auto;
 	height:auto;
 }
-
-
-/*#start# { /* Design Nyheter 
-	width: 625px;
-	height: auto;
+	#start_second
+	{
+		background-color:#fff;
 	border-radius:10px;
-	background-color:#CCC;
-	float: left;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+	width:auto;
+	height:auto;
 	padding-bottom:5px;
-	padding-top:5px;
-}
-**/
+	transition: all 0.6s;
+	}
 
+	
+	
 ul {
   text-align: left;
   background-color:#fff;
@@ -196,6 +218,7 @@ ul li ul li {
 }
 ul li:hover ul {
   display: block;
+  z-index:99999;
   opacity: 1;
   visibility: visible;
 }
@@ -209,6 +232,7 @@ ul li:hover ul {
 	margin-right:10px;
 	width:auto;
 	height:auto;
+	position:relative;
 	padding-top:5px;
 	padding-bottom:10px;
 	transition: all 0.6s;
