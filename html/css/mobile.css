@@ -1,20 +1,18 @@
 body 
 {
-    font-size:15px;
-	margin-left:25px;
-	margin-right:25px;
-	background-color:#a49598;
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:black;
+	background-color: grey;
+	background-attachment:fixed;
+	box-shadow: 0 0 1050px 25px black;
+	padding:10px 0;
+	position:relative;
+	width:480px;
 	height:auto;
-    font-family:arial;
-	font-size:38px;
-    text-decoration:none;
-	width:auto;
-	height:auto;
-	transition: top 0.6s;
-	border-radius:10px 5px 10px 5px;
-	border:1px solid white;
-	padding-top:15px;
-	padding-bottom:25px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
 }
 /* nav */
 #nav_menu 
@@ -133,7 +131,7 @@ body
 	padding: 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
-	border-radius:65px 0px 65px 0px;
+	border-radius:5px 0px 5px 0px;
 	list-style: none;
 	display: inline-block;
 }
@@ -148,19 +146,17 @@ body
 	height:150px;
 	color:#a49598;
 	line-height: 100%;
-	
 }
-
-
 #nav_menu a:active {
 	color:#a49598;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
 	opacity:999;
-	border-radius:65px 0px 65px 0px;
+	border-radius:5px 0px 5px 0px;
 }
 #nav_menu a:hover {
-	color:white;
+	color:grey;
+	margin:30px;
 	transition: all 0.6s;
 	opacity:0.9;
 	border-radius:6px 0px 6px 0px;
@@ -266,9 +262,19 @@ body
 {
 	font-size:25px;
 	width:80px;
-	height:70px;
+	height:auto;
+	margin-top:15px;
+	padding-right:8px;
+	color:grey;
+	border:1px solid white;
+}
+#popup_menu h2
+{
+	font-size:45px;
+	font-size:25px;
+	border:1px solid grey;
 	margin-top:10px;
-	border:1px solid black;
+	border:1px solid white;
 }
 	#pop
 	{
@@ -284,15 +290,26 @@ body
 		clear:both;
 		width:987px;
 		height:1300px;
-		border:1px solid black;
+		border:1px solid grey;
 		transition: all 0.6s;
 		text-align:center;
 	}
 	#pop h1
 	{
 		font-size:55px;
-		height:105px;
+		border:1px solid black;
 		text-align:center;
+		color:black;
+	}
+	#pop h3
+	{
+		border:1px solid black;
+		height:100px;
+		color:grey;
+	}
+	#pop h3 p:first-letter
+	{
+		color:pink;
 	}
 	#pop a
 	{
@@ -382,14 +399,13 @@ ul li
 
 ul li:hover 
 {
-	background-color:#ff2052;
-	border-radius:65px 0px 65px 0px;
-	color:white;
+	color:pink;
+	background-color:pink:
 }
 
 ul li a:hover 
 {
-	color:white;
+	color:grey;
 }
 ul li li a 
 {
@@ -414,7 +430,7 @@ ul li ul {
   left: 1px;
   box-shadow: none;
   display: none;
-  color:white;
+  color:grey;
   opacity: 0;
   visibility: hidden;
 }
@@ -437,7 +453,6 @@ ul li:hover ul {
   z-index:9999;
   visibility: visible;
   color:white;
-  
 }
 
 .footer_bot
