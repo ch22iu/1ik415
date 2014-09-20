@@ -2,7 +2,7 @@ body
 {
 	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
 	letter-spacing:0;
-	color:black;
+	color:grey;
 	background-color: grey;
 	background-attachment:fixed;
 	box-shadow: 0 0 1050px 25px black;
@@ -410,13 +410,13 @@ ul li a:hover
 }
 ul li li a 
 {
-	color:black;
+	color:grey;
 	border-radius:65px 0px 65px 0px;
 }
 
 ul li li ul a
 {
-	color:black;
+	color:grey;
 	height:20px;
 }
 ul li li
@@ -564,7 +564,7 @@ ul#labb li a:hover
      list-style:none;
      text-decoration:none;
      background:rgb(250,250,250);
-     color:black;
+     color:grey;
 }
 #labb li a
 {
