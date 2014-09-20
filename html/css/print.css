@@ -15,6 +15,33 @@ body
 	display:none;
 	border-radius:10px;
 }
+#section_main
+{
+	background-color:none;
+
+}
+	#start
+	{
+	background-color:none;
+	}
+#secondary
+{
+	background-color:none;
+}
+	#secondary_section
+	{
+		background-color:none;
+	}
+	
+	#start_second
+	{
+		background-color:none;
+	}
+		#start_third
+	{
+		background-color:none;
+	}
+
 #showmenu
 {
 	display:none;
@@ -29,34 +56,14 @@ body
 }
 
 #nav_menu ul {
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	transition: all 0.6s;
-	border-radius:65px 0px 65px 0px;
-	margin-left:10px;
-	margin-right:10px;
 	display:none;
-	margin-bottom:2px;
-	padding: 0;
 }
 #nav_menu li {
-	margin: 0 0px 1px 0;
-	padding: 0;
-	height:150px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	transition: all 0.6s;
-	border-radius:65px 0px 65px 0px;
-	list-style: none;
-	display: inline-block;
+	display:none;
 	
 }
 #nav_menu ul li ul {
-	padding: 3px 12px;
-	text-decoration: none;
 	display:none;
-	height:150px;
-	color: #999;
-	line-height: 100%;
-	
 }
 
 #nav_menu a {
@@ -68,33 +75,18 @@ body
 	margin-top:1px;
 }
 #nav_menu a:active {
-	color: white;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	transition: all 0.6s;
-	border-radius:6px 0px 6px 0px;
+	display:none;
 }
 #nav_menu a:hover {
-	color: white;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	transition: all 0.6s;
-	border-radius:6px 0px 6px 0px;
+	display:none;
 }
 #nav_menu.current a {
-	background: #999;
-	color: #fff;
-	border-radius: 5px;
+	display:none;
 }
 
 #startpost 
 { 
-	transition: all 0.6s;
-	background-color:#fff;
-	border-radius:10px;
-	margin-left:10px;
-	margin-right:10px;
-	padding-bottom:5px;
-	width:auto;
-	height:auto;
+	display:none;
 }
 
 #section_main
@@ -109,6 +101,7 @@ body
 	height:auto;
 	transition: all 0.6s;
 }
+
 
 
 /* @media screen and (max-device-width: 480px) and (orientation: portrait){
@@ -126,9 +119,16 @@ body
 
 #start
 {
-	transition: all 0.6s;
+	background-color:#fff;
+	border-radius:1px;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	margin-bottom:1px;
 	width:auto;
 	height:auto;
+	padding-bottom:5px;
+	transition: all 0.6s;
 }
 
 
@@ -258,20 +258,7 @@ ul li:hover ul {
 
 h1
 {
-	margin-top:15px;
-	padding-left:5px;
-	padding-top:10px;
-	margin-bottom:5px;
-	font-size:20px;
-	margin-left:5px;
-	background:rgb(250,250,250);
-	color:gray;
-	width:auto;
-	font-family: Georgia;
-	margin-right:5px;
-	height:40px;
-	border-radius:5px;
-	border: 1px solid #E8E8E8;
+	font-size:15px;
     
 }
 h2
@@ -376,9 +363,7 @@ dd
 }
 .ollist
 {
-	border-radius:10px;
-	background-color:white;
-	margin-right:10px;
+	display:none;
 	
 }
 .vid_pictures
