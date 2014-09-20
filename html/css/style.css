@@ -659,6 +659,10 @@ td
   margin-left:5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+#labb a
+{
+	font-size:18px;
+}
 #labben 
 {
   text-align: left;
