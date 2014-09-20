@@ -8,7 +8,7 @@ body
 	box-shadow: 0 0 1050px 25px black;
 	padding:10px 0;
 	position:relative;
-	width:auto;
+	width:480px;
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -250,6 +250,7 @@ body
 	right:25px;
 	margin-left:10px;
 	margin-right:12px;
+	background:fixed;
 	width:100px;
 	height:70px;
 	z-index:888;
