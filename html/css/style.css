@@ -6,7 +6,7 @@ body
 	background-color: grey;
 	background-attachment:fixed;
 	box-shadow: 0 0 1050px 25px black;
-	padding:10px 0;
+	padding:0px 0;
 	position:relative;
 	width:1024px;
 	height:auto;
@@ -208,9 +208,11 @@ ul {
   background-color:#fff;
   margin-left:5px;
   position:relative;
+  z-index:9999;
+  background-attachment:fixed;
   margin-right:5px;
   border-radius:1px;
-  padding: 45px 0px 45px 0px;
+  padding: 5px 0px 45px 0px;
   border-radius:1px;
   list-style: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
