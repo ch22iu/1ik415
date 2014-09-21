@@ -74,7 +74,8 @@ body
 	border-radius:1px;
 	margin-left:5px;
 	margin-right:5px;
-	padding-bottom:15px;
+	padding-bottom:155px;
+	margin-bottom:5px;
 	width:auto;
 	height:auto;
 }
@@ -99,7 +100,7 @@ body
 	clear:left;
 	float:none;
 	height:auto;
-	padding-top:100px;
+	padding-top:85px;
 
 }
 	#start
@@ -131,7 +132,7 @@ body
 		width:486px;
 		height:auto;
 		clear:both;
-		margin-bottom:10px;
+		margin-bottom:5px;
 		transition: all 0.6s;
 	}
 	
@@ -145,7 +146,7 @@ body
 		float:left;
 		width:517px;
 		height:auto;
-		padding-bottom:0px;
+		padding-bottom:auto;
 		transition: all 0.6s;
 	}
 		#start_third
@@ -365,6 +366,7 @@ ul li:hover ul {
 	position:relative;
 	padding-top:5px;
 	padding-bottom:10px;
+	margin-top:0px;
 	transition: all 0.6s;
 }
 
@@ -469,13 +471,23 @@ p
 	margin-top:1px;
 	padding-left:15px;
 	padding-top:1px;
-	margin-bottom:20px;
+	margin-bottom:5px;
 	font-size:25px;
 	margin-left:5px;
 	color:gray;
 	width:auto;
 	font-family: Georgia;
 	height:auto;
+}
+#imgbot
+{
+	margin-bottom:none;
+	padding-top:5px;
+	position:relative;
+	top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-bottom:none;
 }
 p:first-letter
 {
@@ -682,6 +694,7 @@ dd
 {
 	border:1px solid black;
 	border-radius:5px;
+	margin-bottom:5px;
 	font-size:25px;
 }
 tr
@@ -755,7 +768,11 @@ ol a
 
 form {
 	/* float:left; */
+	position:relative;
 	margin-left:15px;
+	top:87px;
+	bottom:5px;
+	background-color:none;
 	margin-right:auto;
 }
 
