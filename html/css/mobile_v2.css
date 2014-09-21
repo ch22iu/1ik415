@@ -19,7 +19,9 @@ body
 #nav_menu 
 {
 	border-radius:10px;
+	width:50px;
 }
+
 #showmenu 
 {
 	visibility:none;
@@ -36,12 +38,32 @@ body
 	z-index:99999;
 	display:block;
 	border:none;
-	padding: 5px 0px 5px 5px;
+	float:left;
+	padding: 35px 0px 5px 5px;
 	border-radius:5px;
 	list-style: none;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
 }
+#showmenu ul a
+{
+	font-size:15px;
+	padding:none;
+	margin:none;
+}
+#showmenu ul a:hover
+{
+	font-size:15px;
+	padding:none;
+	margin:none;
+}
+#showmenu ul li li a
+{
+	font-size:15px;
+	padding:0px;
+	margin:0px;
+}
+
 
 #section_menu 
 {
@@ -57,6 +79,7 @@ body
 {
 	display:block;
 	text-align:center;
+	position:relative;
 	width:auto;
 	color:grey;
 	margin-right:650px;
@@ -89,9 +112,10 @@ body
 
 .showlistmenu
 {
-	width:50px;
-	height:50px;
-	z-index:500;
+	width:95px;
+	height:20px;
+	float:left;
+	z-index:9999;
 	display:block;
 }
 .showlistmenu:hover
@@ -102,14 +126,10 @@ body
 .showlistmenu a
 {
 	position:relative;
-	padding-top:90px;
-	padding-left:150px;
-	padding-right:150px;
-	padding-bottom:85px;
-	top:150px;
-	left:100px;
-	font-size:65px;
-	text-align:center;
+	padding-top:9px;
+	display:inline-block;
+	top:0px;
+	left:0px;
 }
 .showlistmenu a:first-letter
 {
@@ -118,10 +138,6 @@ body
 
 .showlistmenu a:hover
 {
-	padding-top:90px;
-	padding-left:150px;
-	padding-right:150px;
-	padding-bottom:85px;
 	opacity:0.6;
 }
 
@@ -132,13 +148,15 @@ body
 	border-radius:5px 0px 5px 0px;
 	margin-left:10px;
 	margin-right:10px;
-	margin-bottom:2px;
-	padding-left: 50px;
+	border:none;
+	z-index:99999;
+	margin-bottom:25px;
+	padding-left: 35px;
 }
 #nav_menu li {
 	color:#a49598;
 	margin: 0 0px 1px 0;
-	padding: 0;
+	padding: 50;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	transition: all 0.6s;
 	border-radius:5px 0px 5px 0px;
@@ -150,10 +168,10 @@ body
 	color:pink;
 }
 #nav_menu ul li ul {
-	padding: 3px 12px;
+	padding: 30px 20px 30px 20px;
 	text-decoration: none;
 	display:none;
-	height:150px;
+	background-color:Red;
 	color:#a49598;
 	line-height: 100%;
 }
@@ -166,7 +184,7 @@ body
 }
 #nav_menu a:hover {
 	color:grey;
-	margin:30px;
+	margin:0px;
 	transition: all 0.6s;
 	opacity:0.9;
 	border-radius:6px 0px 6px 0px;
