@@ -293,9 +293,9 @@ ul li li a
 
 ul li ul li:hover:nth-child(1)
 {
-	background:none;
 	padding:2px 32px 2px 15px;
 	z-index:9999999;
+	opacity:1;
 	color:grey;
 }
 ul li ul li:hover:nth-child(2)
@@ -309,38 +309,46 @@ ul li ul li:hover:nth-child(2)
 
 
 ul li ul {
-  position: fixed;
-  top: 50px;
-  left: 460px;
-  float:left;
-  width:310px;
-  z-index:10003;
-  font-size:25px;
-  height:5px;
-  border:none;
-  box-shadow: none;
-  display: block;
-  background:rgb(250,250,250);
-  padding: 5px 0px 25px 0px;
-  color:black;
-  opacity: 1;
-  visibility: hidden;
+	position: absolute;
+	top:27px;
+	left:52px;
+	float:left;
+	z-index:9999999;
+	width:260px;
+	font-size:25px;
+	height:auto;
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 9px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	border:none;
+	display: block;
+	background:none;
+	padding: 5px 0px 5px 0px;
+	color:black;
+	opacity: 1;
+	visibility: hidden;
 }
 
 ul li ul li { 
-  display: block; 
-  float:left;
-  z-index:9999;
-  padding:2px 0px 0px 0px;
-  border:none;
-  text-shadow: 0 1px 0 #fff;
+	display: block; 
+	float:left;
+	z-index:9999;
+	padding:2px 0px 0px 0px;
+	border:none;
+	text-shadow: 0 1px 0 #fff;
 }
 ul li:hover ul {
-  display: block;
-  color:grey;
-  margin-top:5px;
-  opacity: 1;
-  visibility: visible;
+	display: block;
+	color:grey;
+	background-color:white;
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 9px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	width:270px;
+	z-index:99999999;
+	margin-top:5px;
+	opacity: 1;
+	visibility: visible;
 }
 
 .footer_bot
