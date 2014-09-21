@@ -25,10 +25,12 @@ body
 	visibility:none;
 	text-align: left;
 	position:fixed;
-	left:215px;
+	left:1px;
+	right:1px;
 	background-color:white;
 	margin-left:10px;
 	margin-right:10px;
+	width:auto;
 	border-radius:5px;
 	z-index:99999;
 	display:block;
