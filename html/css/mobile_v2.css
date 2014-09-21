@@ -108,16 +108,8 @@ body
 #showmenu:active > ul
 {
 	display:block;
-	background-color:white;
-	position:relative;
-	left:50px;
-	top:1px;
-	right:50px;
-	overflow:none;
-	bottom:1px;
-	width:100px;
-	height:150px;
-	transition: all 0.6s;
+	width:130px;
+	height:400px;
 	z-index:9999;
 	visibility:visible;
 }
