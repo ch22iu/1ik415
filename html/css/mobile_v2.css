@@ -29,7 +29,9 @@ body
 	z-index:99999;
 	display:block;
 	border:none;
-	width:5px;
+	background-color:white;
+	width:10px;
+	height:150px;
 	left:5px;
 	padding: 35px 0px 5px 5px;
 	border-radius:5px;
@@ -91,18 +93,28 @@ body
 #showmenu:hover > ul
 {
 	display:block;
-	width:130px;
+	position:relative;
+	left:5px;
+	width:30px;
+	background-color:red;
 	height:400px;
 	z-index:9999;
 	visibility:visible;
 }
-#showmenu:active > ul
+#showmenu:hover
 {
-	display:block;
-	width:130px;
-	height:400px;
-	z-index:9999;
-	visibility:visible;
+	padding-left:90px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border:1px solid white;
+}
+#showmenu:active > p
+{
+	display:none;
+}
+#showmenu:active > li
+{
+	display:none;
 }
 
 
