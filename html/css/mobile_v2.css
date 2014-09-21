@@ -93,11 +93,11 @@ body
 #showmenu:hover > ul
 {
 	display:block;
-	position:relative;
-	left:5px;
-	width:30px;
-	background-color:red;
-	height:400px;
+	position:absolute;
+	left:1px;
+	width:230px;
+	background-color:white;
+	height:50px;
 	z-index:9999;
 	visibility:visible;
 }
@@ -108,6 +108,14 @@ body
 	padding-top:10px;
 	border:1px solid white;
 }
+#showmenu:active
+{
+	padding-left:90px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border:1px solid white;
+}
+
 #showmenu:active > p
 {
 	display:none;
