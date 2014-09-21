@@ -45,6 +45,7 @@ body
 	top:0px;
 	box-shadow: 0 0 1050px 25px white;
 	
+	
 }
 #showlistmenu
 {
@@ -228,7 +229,7 @@ ul {
   border-radius:1px;
   border-width:1px 0px 1px 0px;
   border-color:black;
-  box-shadow: 5px 11px 15px 11px grey;
+  box-shadow: 2px 0px 10px 1px white;
   border-style:solid;
   padding:15px 0px 22px 55px;
   list-style: none;
@@ -242,6 +243,7 @@ ul li
   position: relative;
   padding: 15px 15px 15px 15px;
   cursor: pointer;
+  
   opacity:0.6;
   transition: all 0.2s;
 }
@@ -250,7 +252,13 @@ ul li:hover
 {
 	color:grey;
 	opacity:1;
-	padding:2px;
+	-webkit-box-shadow:0 1px 10px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 39px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 8px 9px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+	margin-right:15px;
+	border-style:none;
+	padding:15px;
+	border-radius:5px 5px 5px 5px;
 }
 ul li a 
 {
@@ -258,6 +266,7 @@ ul li a
 	font-size:28px;
 	font-family:Georgia;
 	border-radius:0px 25px 0px 25px;
+	border-radius:45px;
 }
 
 ul li:first-letter 
@@ -268,12 +277,16 @@ ul li:first-letter
 ul li a:hover 
 {
 	color:grey;
+	border-radius:45px;
+	z-index:999999;
+	background-color:none;
 }
 
 ul li li a 
 {
 	background:none;
-	
+	border-radius:45px;
+	z-index:99999999;
 	color:grey;
 	border-radius:0px 25px 0px 25px;
 }
@@ -281,27 +294,30 @@ ul li li a
 ul li ul li:hover:nth-child(1)
 {
 	background:none;
-	padding-left:15px;
+	padding:2px 32px 2px 15px;
+	z-index:9999999;
 	color:grey;
 }
 ul li ul li:hover:nth-child(2)
 {
 	background:none;
+	padding:2px 32px 2px 15px;
+	z-index:9999999;
 	color:grey;
-	padding-left:15px;
-	
 }
 
 
 
 ul li ul {
-  position: absolute;
-  top: 25px;
-  left: 55px;
+  position: fixed;
+  top: 50px;
+  left: 460px;
   float:left;
   width:310px;
+  z-index:10003;
   font-size:25px;
   height:5px;
+  border:none;
   box-shadow: none;
   display: block;
   background:rgb(250,250,250);
@@ -314,12 +330,13 @@ ul li ul {
 ul li ul li { 
   display: block; 
   float:left;
+  z-index:9999;
   padding:2px 0px 0px 0px;
-  text-shadow: 0 1px 0 #000;
+  border:none;
+  text-shadow: 0 1px 0 #fff;
 }
 ul li:hover ul {
   display: block;
-  z-index:99999;
   color:grey;
   margin-top:5px;
   opacity: 1;
