@@ -95,9 +95,23 @@ body
 	display:block;
 	position:absolute;
 	left:1px;
-	width:200px;
-	padding-left:150px;
-	padding-bottom:310px;
+	width:150px;
+	padding-left:50px;
+	padding-bottom:290px;
+	border:1px solid black;
+	background-color:white;
+	height:50px;
+	z-index:9999;
+	visibility:visible;
+}
+#showmenu:active > ul
+{
+	display:block;
+	position:absolute;
+	left:1px;
+	width:150px;
+	padding-left:50px;
+	padding-bottom:290px;
 	border:1px solid black;
 	background-color:white;
 	height:50px;
@@ -106,17 +120,10 @@ body
 }
 #showmenu:hover
 {
-	display:block;
-	position:absolute;
-	left:1px;
-	width:200px;
-	padding-left:150px;
-	padding-bottom:310px;
-	border:1px solid black;
-	background-color:white;
-	height:50px;
-	z-index:9999;
-	visibility:visible;
+	padding-left:90px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border:1px solid white;
 }
 #showmenu:active
 {
@@ -125,7 +132,7 @@ body
 	left:1px;
 	width:200px;
 	padding-left:150px;
-	padding-bottom:310px;
+	padding-bottom:210px;
 	border:1px solid black;
 	background-color:white;
 	height:50px;
