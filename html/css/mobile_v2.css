@@ -106,17 +106,31 @@ body
 }
 #showmenu:hover
 {
-	padding-left:90px;
-	padding-bottom:10px;
-	padding-top:10px;
-	border:1px solid white;
+	display:block;
+	position:absolute;
+	left:1px;
+	width:200px;
+	padding-left:150px;
+	padding-bottom:310px;
+	border:1px solid black;
+	background-color:white;
+	height:50px;
+	z-index:9999;
+	visibility:visible;
 }
 #showmenu:active
 {
-	padding-left:90px;
-	padding-bottom:10px;
-	padding-top:10px;
-	border:1px solid white;
+	display:block;
+	position:absolute;
+	left:1px;
+	width:200px;
+	padding-left:150px;
+	padding-bottom:310px;
+	border:1px solid black;
+	background-color:white;
+	height:50px;
+	z-index:9999;
+	visibility:visible;
 }
 
 #showmenu:active > p
