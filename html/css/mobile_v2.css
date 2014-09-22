@@ -90,20 +90,6 @@ body
 	color:#FFC0CB;
 }
 
-#showmenu:hover > ul
-{
-	display:block;
-	position:absolute;
-	left:1px;
-	width:150px;
-	padding-left:50px;
-	padding-bottom:290px;
-	border:1px solid black;
-	background-color:white;
-	height:50px;
-	z-index:9999;
-	visibility:visible;
-}
 #showmenu:active > ul
 {
 	display:block;
