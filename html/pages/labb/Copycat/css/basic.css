@@ -1,20 +1,27 @@
 
 
-html, body, ul, li, a 
+html, ul, li, a 
 {
 padding: 0;
 margin: 0;
+}
+
+body
+{
+background-image: url('pics/background_img.png');
 }
 
 #container 
 {
 width: 600px;
 margin: auto;
+margin-top:15px;
+margin-bottom:15px;
 background-color: #50483B;
 background-image: url('pics/coffey.jpg');
 background-repeat:no-repeat;
 background-position: top 20px center;
-border: 1px solid grey;
+border: 1px solid #FFF;
 }
 
 #topbar
@@ -99,7 +106,7 @@ float: right;
 color: #787167;
 font: 10px Verdana;
 padding: 0 5px 10px 10px;
-border-left: 1px dashed #787167;
+border-left: 2px dashed lightgrey;
 width: 228px;
 }
 
