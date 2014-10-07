@@ -14,7 +14,7 @@ body
 
 #container 
 {
-	width: 601px;
+	width: 606px;
 	height: auto;
 	margin-top:15px;
 	margin-bottom:15px;
@@ -23,15 +23,18 @@ body
 	background-color: #50483B;
 	background-image: url('pics/coffey.jpg');
 	background-repeat:no-repeat;
-	background-position: top 20px center;
+	background-position: 0px 20px;
 	border: 1px solid #FFFAF0;
 }
 
 #topbar
 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: Verdana, Geneva, sans-serif;
 	float: right;
-	font-size: 13px;
+	font-style:italic;
+	margin-top:4px;
+	margin-right:4px;
+	font-size: 10px;
 	color: #EAE8D3;
 }
 
