@@ -16,3 +16,41 @@ background-repeat:no-repeat;
 background-position: top 20px center;
 border: 1px solid rgba(0, 0, 0, .1);
 }
+
+#topbar
+{
+font-family: "Times New Roman", Times, serif;
+float: right;
+font-size: 13px;
+color: #EAE8D3;
+}
+
+#menu 
+{
+width: 100%;
+font: 12px Verdana;
+margin-left: 20px;
+}
+
+#menu a {
+visibility: hidden;
+}
+
+#menu ul li 
+{
+margin-top: 210px;
+display: inline-block;
+margin-left: -3px;
+}
+
+#menu ul li a 
+{
+visibility: inherit;
+display: block;
+color: #EAE8D3;
+text-decoration: none;
+background-color: #787167;
+text-transform: capitalize;
+text-align: center;
+padding: 10px 18px;
+}
