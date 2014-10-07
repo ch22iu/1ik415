@@ -2,148 +2,152 @@
 
 html, ul, li, a 
 {
-padding: 0;
-margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body
 {
-background-image: url('pics/background_img.png');
+	background-image: url('pics/background_img.png');
+	margin:auto;
 }
 
 #container 
 {
-width: 600px;
-margin: auto;
-margin-top:15px;
-margin-bottom:15px;
-background-color: #50483B;
-background-image: url('pics/coffey.jpg');
-background-repeat:no-repeat;
-background-position: top 20px center;
-border: 1px solid #FFF;
+	width: 601px;
+	height: auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #50483B;
+	background-image: url('pics/coffey.jpg');
+	background-repeat:no-repeat;
+	background-position: top 20px center;
+	border: 1px solid #FFF;
 }
 
 #topbar
 {
-font-family: "Times New Roman", Times, serif;
-float: right;
-font-size: 13px;
-color: #EAE8D3;
+	font-family: "Times New Roman", Times, serif;
+	float: right;
+	font-size: 13px;
+	color: #EAE8D3;
 }
 
 #menu 
 {
-width: 100%;
-font: 12px Verdana;
-margin-left: 20px;
+	width: 100%;
+	font: 12px Verdana;
+	margin-left: 20px;
 }
 
-#menu a {
-visibility: hidden;
+#menu a 
+{
+	visibility: hidden;
 }
 
 #menu ul li 
 {
-margin-top: 210px;
-display: inline-block;
-margin-left: -3px;
+	margin-top: 210px;
+	display: inline-block;
+	margin-left: -3px;
 }
 
 #menu ul li a 
 {
-visibility: inherit;
-display: block;
-color: #EAE8D3;
-text-decoration: none;
-background-color: #787167;
-text-transform: capitalize;
-text-align: center;
-padding: 10px 18px;
+	visibility: inherit;
+	display: block;
+	color: #EAE8D3;
+	text-decoration: none;
+	background-color: #787167;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 10px 18px;
 }
 
 #menu li.active a
 {
-background-color: #EAE8D3;
-color: #787167;
+	background-color: #EAE8D3;
+	color: #787167;
 }
 
 #menu a:hover 
 {
-background-color: rgb(156, 144, 132);
+	background-color: rgb(156, 144, 132);
 }
 
 #content 
 {
-background-color: #EAE8D3;
+	background-color: #EAE8D3;
 }
 
 #maincontent 
 {
-width: 340px;
-float: left;
-padding: 10px 0 0 10px;
-color: #787167;
-font: 12px Verdana;
-line-height: 20px;
+	width: 325px;
+	float: left;
+	padding: 10px 0 0 10px;
+	color: #787167;
+	font: 12px Verdana;
+	line-height: 20px;
 }
 
 #maincontent h1 
 {
-font: 30px "Times New Roman";
+	font: 30px "Times New Roman";
 }
 
 #maincontent img 
 {
-float: left;
-margin-right: 5px;
+	float: left;
+	margin-right: 5px;
 }
 
 #subcontent 
 {
-margin-top: 30px;
-float: right;
-color: #787167;
-font: 10px Verdana;
-padding: 0 5px 10px 10px;
-border-left: 2px dashed lightgrey;
-width: 228px;
+	margin-top: 30px;
+	float: right;
+	color: #787167;
+	font: 10px Verdana;
+	padding: 0 5px 5px 5px;
+	border-left: 1px dashed lightgrey;
+	width: 240px;
 }
 
 #subcontent p 
 {
-line-height: 20px;
+	line-height: 20px;
 }
 
 #subcontent h1 
 {
-margin-top: 10px;
-font: 18px "Times New Roman";
+	margin-top: 10px;
+	font: 18px "Times New Roman";
 }
 
 #subcontent h2 
 {
-margin-top: 50px;
-color: #50483B;
-font: 14px "Times New Roman";
+	margin-top: 50px;
+	color: #50483B;
+	font: 14px "Times New Roman";
 }
 
 #subcontent a 
 {
-color: #50483B;
-font: 14px "Times New Roman";
+	color: #50483B;
+	font: 14px "Times New Roman";
 }
 
 #subcontent ul 
 {
-list-style: none;
+	list-style: none;
 }
 
 #bottomcontent 
 {
-clear: both;
-padding: 10px;
-color: #787167;
-font: 12px "Times New Roman";
-font-style: italic;
+	clear: both;
+	padding: 10px;
+	color: #787167;
+	font: 12px "Times New Roman";
+	font-style: italic;
 }
