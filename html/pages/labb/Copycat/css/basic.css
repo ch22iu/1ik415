@@ -1,0 +1,18 @@
+
+
+html, body, ul, li, a 
+{
+padding: 0;
+margin: 0;
+}
+
+#container 
+{
+width: 600px;
+margin: auto;
+background-color: #50483B;
+background-image: url('pics/coffey.jpg');
+background-repeat:no-repeat;
+background-position: top 20px center;
+border: 1px solid rgba(0, 0, 0, .1);
+}
