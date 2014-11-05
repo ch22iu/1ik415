@@ -620,12 +620,12 @@ dd
 	left:220px;
 	margin-top:5px;
 	margin-left:1px;
-	height:19px;
+	height:21px;
 	background: url('../img/sprite.png')-3px -2px;
 }
 #sprite:hover
 {
-	background: url('../img/sprite.png') -87px -51px;
+	background: url('../img/sprite.png') -87px -50px;
 }
 
 .svgsvg
